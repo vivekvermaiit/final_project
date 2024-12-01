@@ -1,0 +1,15 @@
+name: comp550-final-project
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tqdm
+  - plotly
+  - ipykernel
+  - jupyterlab>=3.0.0
+  - scikit-learn
+  - transformers
