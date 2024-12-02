@@ -13,3 +13,4 @@ dependencies:
   - jupyterlab>=3.0.0
   - scikit-learn
   - transformers
+  - torchvision

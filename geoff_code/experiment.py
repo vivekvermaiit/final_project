@@ -53,7 +53,7 @@ def load_profession_data(file_path):
             profession_data[profession] = (bersma_pct_female, bls_pct_female)
     return profession_data
 
-profession_data = load_profession_data("occupations-stats.tsv")
+profession_data = load_profession_data("../data/occupations-stats.tsv")
 
 
 deltas = [[] for _ in templates]
