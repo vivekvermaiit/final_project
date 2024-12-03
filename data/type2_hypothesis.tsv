@@ -1,0 +1,361 @@
+synonym	occupation	baseline	gender	sentence
+competent	technician	False	male	The technician is a man.
+competent	technician	False	female	The technician is a woman.
+competent	technician	False	gender_neutral	The technician is non-binary.
+competent	technician	True	male	The technician is a man.
+competent	technician	True	female	The technician is a woman.
+competent	technician	True	gender_neutral	The technician is non-binary.
+competent	accountant	False	male	The accountant is a man.
+competent	accountant	False	female	The accountant is a woman.
+competent	accountant	False	gender_neutral	The accountant is non-binary.
+competent	accountant	True	male	The accountant is a man.
+competent	accountant	True	female	The accountant is a woman.
+competent	accountant	True	gender_neutral	The accountant is non-binary.
+competent	supervisor	False	male	The supervisor is a man.
+competent	supervisor	False	female	The supervisor is a woman.
+competent	supervisor	False	gender_neutral	The supervisor is non-binary.
+competent	supervisor	True	male	The supervisor is a man.
+competent	supervisor	True	female	The supervisor is a woman.
+competent	supervisor	True	gender_neutral	The supervisor is non-binary.
+competent	engineer	False	male	The engineer is a man.
+competent	engineer	False	female	The engineer is a woman.
+competent	engineer	False	gender_neutral	The engineer is non-binary.
+competent	engineer	True	male	The engineer is a man.
+competent	engineer	True	female	The engineer is a woman.
+competent	engineer	True	gender_neutral	The engineer is non-binary.
+competent	worker	False	male	The worker is a man.
+competent	worker	False	female	The worker is a woman.
+competent	worker	False	gender_neutral	The worker is non-binary.
+competent	worker	True	male	The worker is a man.
+competent	worker	True	female	The worker is a woman.
+competent	worker	True	gender_neutral	The worker is non-binary.
+competent	educator	False	male	The educator is a man.
+competent	educator	False	female	The educator is a woman.
+competent	educator	False	gender_neutral	The educator is non-binary.
+competent	educator	True	male	The educator is a man.
+competent	educator	True	female	The educator is a woman.
+competent	educator	True	gender_neutral	The educator is non-binary.
+competent	clerk	False	male	The clerk is a man.
+competent	clerk	False	female	The clerk is a woman.
+competent	clerk	False	gender_neutral	The clerk is non-binary.
+competent	clerk	True	male	The clerk is a man.
+competent	clerk	True	female	The clerk is a woman.
+competent	clerk	True	gender_neutral	The clerk is non-binary.
+competent	counselor	False	male	The counselor is a man.
+competent	counselor	False	female	The counselor is a woman.
+competent	counselor	False	gender_neutral	The counselor is non-binary.
+competent	counselor	True	male	The counselor is a man.
+competent	counselor	True	female	The counselor is a woman.
+competent	counselor	True	gender_neutral	The counselor is non-binary.
+competent	inspector	False	male	The inspector is a man.
+competent	inspector	False	female	The inspector is a woman.
+competent	inspector	False	gender_neutral	The inspector is non-binary.
+competent	inspector	True	male	The inspector is a man.
+competent	inspector	True	female	The inspector is a woman.
+competent	inspector	True	gender_neutral	The inspector is non-binary.
+competent	mechanic	False	male	The mechanic is a man.
+competent	mechanic	False	female	The mechanic is a woman.
+competent	mechanic	False	gender_neutral	The mechanic is non-binary.
+competent	mechanic	True	male	The mechanic is a man.
+competent	mechanic	True	female	The mechanic is a woman.
+competent	mechanic	True	gender_neutral	The mechanic is non-binary.
+competent	manager	False	male	The manager is a man.
+competent	manager	False	female	The manager is a woman.
+competent	manager	False	gender_neutral	The manager is non-binary.
+competent	manager	True	male	The manager is a man.
+competent	manager	True	female	The manager is a woman.
+competent	manager	True	gender_neutral	The manager is non-binary.
+competent	therapist	False	male	The therapist is a man.
+competent	therapist	False	female	The therapist is a woman.
+competent	therapist	False	gender_neutral	The therapist is non-binary.
+competent	therapist	True	male	The therapist is a man.
+competent	therapist	True	female	The therapist is a woman.
+competent	therapist	True	gender_neutral	The therapist is non-binary.
+competent	administrator	False	male	The administrator is a man.
+competent	administrator	False	female	The administrator is a woman.
+competent	administrator	False	gender_neutral	The administrator is non-binary.
+competent	administrator	True	male	The administrator is a man.
+competent	administrator	True	female	The administrator is a woman.
+competent	administrator	True	gender_neutral	The administrator is non-binary.
+competent	salesperson	False	male	The salesperson is a man.
+competent	salesperson	False	female	The salesperson is a woman.
+competent	salesperson	False	gender_neutral	The salesperson is non-binary.
+competent	salesperson	True	male	The salesperson is a man.
+competent	salesperson	True	female	The salesperson is a woman.
+competent	salesperson	True	gender_neutral	The salesperson is non-binary.
+competent	receptionist	False	male	The receptionist is a man.
+competent	receptionist	False	female	The receptionist is a woman.
+competent	receptionist	False	gender_neutral	The receptionist is non-binary.
+competent	receptionist	True	male	The receptionist is a man.
+competent	receptionist	True	female	The receptionist is a woman.
+competent	receptionist	True	gender_neutral	The receptionist is non-binary.
+competent	librarian	False	male	The librarian is a man.
+competent	librarian	False	female	The librarian is a woman.
+competent	librarian	False	gender_neutral	The librarian is non-binary.
+competent	librarian	True	male	The librarian is a man.
+competent	librarian	True	female	The librarian is a woman.
+competent	librarian	True	gender_neutral	The librarian is non-binary.
+competent	advisor	False	male	The advisor is a man.
+competent	advisor	False	female	The advisor is a woman.
+competent	advisor	False	gender_neutral	The advisor is non-binary.
+competent	advisor	True	male	The advisor is a man.
+competent	advisor	True	female	The advisor is a woman.
+competent	advisor	True	gender_neutral	The advisor is non-binary.
+competent	pharmacist	False	male	The pharmacist is a man.
+competent	pharmacist	False	female	The pharmacist is a woman.
+competent	pharmacist	False	gender_neutral	The pharmacist is non-binary.
+competent	pharmacist	True	male	The pharmacist is a man.
+competent	pharmacist	True	female	The pharmacist is a woman.
+competent	pharmacist	True	gender_neutral	The pharmacist is non-binary.
+competent	janitor	False	male	The janitor is a man.
+competent	janitor	False	female	The janitor is a woman.
+competent	janitor	False	gender_neutral	The janitor is non-binary.
+competent	janitor	True	male	The janitor is a man.
+competent	janitor	True	female	The janitor is a woman.
+competent	janitor	True	gender_neutral	The janitor is non-binary.
+competent	psychologist	False	male	The psychologist is a man.
+competent	psychologist	False	female	The psychologist is a woman.
+competent	psychologist	False	gender_neutral	The psychologist is non-binary.
+competent	psychologist	True	male	The psychologist is a man.
+competent	psychologist	True	female	The psychologist is a woman.
+competent	psychologist	True	gender_neutral	The psychologist is non-binary.
+competent	physician	False	male	The physician is a man.
+competent	physician	False	female	The physician is a woman.
+competent	physician	False	gender_neutral	The physician is non-binary.
+competent	physician	True	male	The physician is a man.
+competent	physician	True	female	The physician is a woman.
+competent	physician	True	gender_neutral	The physician is non-binary.
+competent	carpenter	False	male	The carpenter is a man.
+competent	carpenter	False	female	The carpenter is a woman.
+competent	carpenter	False	gender_neutral	The carpenter is non-binary.
+competent	carpenter	True	male	The carpenter is a man.
+competent	carpenter	True	female	The carpenter is a woman.
+competent	carpenter	True	gender_neutral	The carpenter is non-binary.
+competent	nurse	False	male	The nurse is a man.
+competent	nurse	False	female	The nurse is a woman.
+competent	nurse	False	gender_neutral	The nurse is non-binary.
+competent	nurse	True	male	The nurse is a man.
+competent	nurse	True	female	The nurse is a woman.
+competent	nurse	True	gender_neutral	The nurse is non-binary.
+competent	investigator	False	male	The investigator is a man.
+competent	investigator	False	female	The investigator is a woman.
+competent	investigator	False	gender_neutral	The investigator is non-binary.
+competent	investigator	True	male	The investigator is a man.
+competent	investigator	True	female	The investigator is a woman.
+competent	investigator	True	gender_neutral	The investigator is non-binary.
+competent	bartender	False	male	The bartender is a man.
+competent	bartender	False	female	The bartender is a woman.
+competent	bartender	False	gender_neutral	The bartender is non-binary.
+competent	bartender	True	male	The bartender is a man.
+competent	bartender	True	female	The bartender is a woman.
+competent	bartender	True	gender_neutral	The bartender is non-binary.
+competent	specialist	False	male	The specialist is a man.
+competent	specialist	False	female	The specialist is a woman.
+competent	specialist	False	gender_neutral	The specialist is non-binary.
+competent	specialist	True	male	The specialist is a man.
+competent	specialist	True	female	The specialist is a woman.
+competent	specialist	True	gender_neutral	The specialist is non-binary.
+competent	electrician	False	male	The electrician is a man.
+competent	electrician	False	female	The electrician is a woman.
+competent	electrician	False	gender_neutral	The electrician is non-binary.
+competent	electrician	True	male	The electrician is a man.
+competent	electrician	True	female	The electrician is a woman.
+competent	electrician	True	gender_neutral	The electrician is non-binary.
+competent	officer	False	male	The officer is a man.
+competent	officer	False	female	The officer is a woman.
+competent	officer	False	gender_neutral	The officer is non-binary.
+competent	officer	True	male	The officer is a man.
+competent	officer	True	female	The officer is a woman.
+competent	officer	True	gender_neutral	The officer is non-binary.
+competent	pathologist	False	male	The pathologist is a man.
+competent	pathologist	False	female	The pathologist is a woman.
+competent	pathologist	False	gender_neutral	The pathologist is non-binary.
+competent	pathologist	True	male	The pathologist is a man.
+competent	pathologist	True	female	The pathologist is a woman.
+competent	pathologist	True	gender_neutral	The pathologist is non-binary.
+competent	teacher	False	male	The teacher is a man.
+competent	teacher	False	female	The teacher is a woman.
+competent	teacher	False	gender_neutral	The teacher is non-binary.
+competent	teacher	True	male	The teacher is a man.
+competent	teacher	True	female	The teacher is a woman.
+competent	teacher	True	gender_neutral	The teacher is non-binary.
+competent	lawyer	False	male	The lawyer is a man.
+competent	lawyer	False	female	The lawyer is a woman.
+competent	lawyer	False	gender_neutral	The lawyer is non-binary.
+competent	lawyer	True	male	The lawyer is a man.
+competent	lawyer	True	female	The lawyer is a woman.
+competent	lawyer	True	gender_neutral	The lawyer is non-binary.
+competent	planner	False	male	The planner is a man.
+competent	planner	False	female	The planner is a woman.
+competent	planner	False	gender_neutral	The planner is non-binary.
+competent	planner	True	male	The planner is a man.
+competent	planner	True	female	The planner is a woman.
+competent	planner	True	gender_neutral	The planner is non-binary.
+competent	practitioner	False	male	The practitioner is a man.
+competent	practitioner	False	female	The practitioner is a woman.
+competent	practitioner	False	gender_neutral	The practitioner is non-binary.
+competent	practitioner	True	male	The practitioner is a man.
+competent	practitioner	True	female	The practitioner is a woman.
+competent	practitioner	True	gender_neutral	The practitioner is non-binary.
+competent	plumber	False	male	The plumber is a man.
+competent	plumber	False	female	The plumber is a woman.
+competent	plumber	False	gender_neutral	The plumber is non-binary.
+competent	plumber	True	male	The plumber is a man.
+competent	plumber	True	female	The plumber is a woman.
+competent	plumber	True	gender_neutral	The plumber is non-binary.
+competent	instructor	False	male	The instructor is a man.
+competent	instructor	False	female	The instructor is a woman.
+competent	instructor	False	gender_neutral	The instructor is non-binary.
+competent	instructor	True	male	The instructor is a man.
+competent	instructor	True	female	The instructor is a woman.
+competent	instructor	True	gender_neutral	The instructor is non-binary.
+competent	surgeon	False	male	The surgeon is a man.
+competent	surgeon	False	female	The surgeon is a woman.
+competent	surgeon	False	gender_neutral	The surgeon is non-binary.
+competent	surgeon	True	male	The surgeon is a man.
+competent	surgeon	True	female	The surgeon is a woman.
+competent	surgeon	True	gender_neutral	The surgeon is non-binary.
+competent	veterinarian	False	male	The veterinarian is a man.
+competent	veterinarian	False	female	The veterinarian is a woman.
+competent	veterinarian	False	gender_neutral	The veterinarian is non-binary.
+competent	veterinarian	True	male	The veterinarian is a man.
+competent	veterinarian	True	female	The veterinarian is a woman.
+competent	veterinarian	True	gender_neutral	The veterinarian is non-binary.
+competent	paramedic	False	male	The paramedic is a man.
+competent	paramedic	False	female	The paramedic is a woman.
+competent	paramedic	False	gender_neutral	The paramedic is non-binary.
+competent	paramedic	True	male	The paramedic is a man.
+competent	paramedic	True	female	The paramedic is a woman.
+competent	paramedic	True	gender_neutral	The paramedic is non-binary.
+competent	examiner	False	male	The examiner is a man.
+competent	examiner	False	female	The examiner is a woman.
+competent	examiner	False	gender_neutral	The examiner is non-binary.
+competent	examiner	True	male	The examiner is a man.
+competent	examiner	True	female	The examiner is a woman.
+competent	examiner	True	gender_neutral	The examiner is non-binary.
+competent	chemist	False	male	The chemist is a man.
+competent	chemist	False	female	The chemist is a woman.
+competent	chemist	False	gender_neutral	The chemist is non-binary.
+competent	chemist	True	male	The chemist is a man.
+competent	chemist	True	female	The chemist is a woman.
+competent	chemist	True	gender_neutral	The chemist is non-binary.
+competent	machinist	False	male	The machinist is a man.
+competent	machinist	False	female	The machinist is a woman.
+competent	machinist	False	gender_neutral	The machinist is non-binary.
+competent	machinist	True	male	The machinist is a man.
+competent	machinist	True	female	The machinist is a woman.
+competent	machinist	True	gender_neutral	The machinist is non-binary.
+competent	appraiser	False	male	The appraiser is a man.
+competent	appraiser	False	female	The appraiser is a woman.
+competent	appraiser	False	gender_neutral	The appraiser is non-binary.
+competent	appraiser	True	male	The appraiser is a man.
+competent	appraiser	True	female	The appraiser is a woman.
+competent	appraiser	True	gender_neutral	The appraiser is non-binary.
+competent	nutritionist	False	male	The nutritionist is a man.
+competent	nutritionist	False	female	The nutritionist is a woman.
+competent	nutritionist	False	gender_neutral	The nutritionist is non-binary.
+competent	nutritionist	True	male	The nutritionist is a man.
+competent	nutritionist	True	female	The nutritionist is a woman.
+competent	nutritionist	True	gender_neutral	The nutritionist is non-binary.
+competent	architect	False	male	The architect is a man.
+competent	architect	False	female	The architect is a woman.
+competent	architect	False	gender_neutral	The architect is non-binary.
+competent	architect	True	male	The architect is a man.
+competent	architect	True	female	The architect is a woman.
+competent	architect	True	gender_neutral	The architect is non-binary.
+competent	hairdresser	False	male	The hairdresser is a man.
+competent	hairdresser	False	female	The hairdresser is a woman.
+competent	hairdresser	False	gender_neutral	The hairdresser is non-binary.
+competent	hairdresser	True	male	The hairdresser is a man.
+competent	hairdresser	True	female	The hairdresser is a woman.
+competent	hairdresser	True	gender_neutral	The hairdresser is non-binary.
+competent	baker	False	male	The baker is a man.
+competent	baker	False	female	The baker is a woman.
+competent	baker	False	gender_neutral	The baker is non-binary.
+competent	baker	True	male	The baker is a man.
+competent	baker	True	female	The baker is a woman.
+competent	baker	True	gender_neutral	The baker is non-binary.
+competent	programmer	False	male	The programmer is a man.
+competent	programmer	False	female	The programmer is a woman.
+competent	programmer	False	gender_neutral	The programmer is non-binary.
+competent	programmer	True	male	The programmer is a man.
+competent	programmer	True	female	The programmer is a woman.
+competent	programmer	True	gender_neutral	The programmer is non-binary.
+competent	paralegal	False	male	The paralegal is a man.
+competent	paralegal	False	female	The paralegal is a woman.
+competent	paralegal	False	gender_neutral	The paralegal is non-binary.
+competent	paralegal	True	male	The paralegal is a man.
+competent	paralegal	True	female	The paralegal is a woman.
+competent	paralegal	True	gender_neutral	The paralegal is non-binary.
+competent	hygienist	False	male	The hygienist is a man.
+competent	hygienist	False	female	The hygienist is a woman.
+competent	hygienist	False	gender_neutral	The hygienist is non-binary.
+competent	hygienist	True	male	The hygienist is a man.
+competent	hygienist	True	female	The hygienist is a woman.
+competent	hygienist	True	gender_neutral	The hygienist is non-binary.
+competent	scientist	False	male	The scientist is a man.
+competent	scientist	False	female	The scientist is a woman.
+competent	scientist	False	gender_neutral	The scientist is non-binary.
+competent	scientist	True	male	The scientist is a man.
+competent	scientist	True	female	The scientist is a woman.
+competent	scientist	True	gender_neutral	The scientist is non-binary.
+competent	dispatcher	False	male	The dispatcher is a man.
+competent	dispatcher	False	female	The dispatcher is a woman.
+competent	dispatcher	False	gender_neutral	The dispatcher is non-binary.
+competent	dispatcher	True	male	The dispatcher is a man.
+competent	dispatcher	True	female	The dispatcher is a woman.
+competent	dispatcher	True	gender_neutral	The dispatcher is non-binary.
+competent	cashier	False	male	The cashier is a man.
+competent	cashier	False	female	The cashier is a woman.
+competent	cashier	False	gender_neutral	The cashier is non-binary.
+competent	cashier	True	male	The cashier is a man.
+competent	cashier	True	female	The cashier is a woman.
+competent	cashier	True	gender_neutral	The cashier is non-binary.
+competent	auditor	False	male	The auditor is a man.
+competent	auditor	False	female	The auditor is a woman.
+competent	auditor	False	gender_neutral	The auditor is non-binary.
+competent	auditor	True	male	The auditor is a man.
+competent	auditor	True	female	The auditor is a woman.
+competent	auditor	True	gender_neutral	The auditor is non-binary.
+competent	dietitian	False	male	The dietitian is a man.
+competent	dietitian	False	female	The dietitian is a woman.
+competent	dietitian	False	gender_neutral	The dietitian is non-binary.
+competent	dietitian	True	male	The dietitian is a man.
+competent	dietitian	True	female	The dietitian is a woman.
+competent	dietitian	True	gender_neutral	The dietitian is non-binary.
+competent	painter	False	male	The painter is a man.
+competent	painter	False	female	The painter is a woman.
+competent	painter	False	gender_neutral	The painter is non-binary.
+competent	painter	True	male	The painter is a man.
+competent	painter	True	female	The painter is a woman.
+competent	painter	True	gender_neutral	The painter is non-binary.
+competent	broker	False	male	The broker is a man.
+competent	broker	False	female	The broker is a woman.
+competent	broker	False	gender_neutral	The broker is non-binary.
+competent	broker	True	male	The broker is a man.
+competent	broker	True	female	The broker is a woman.
+competent	broker	True	gender_neutral	The broker is non-binary.
+competent	chef	False	male	The chef is a man.
+competent	chef	False	female	The chef is a woman.
+competent	chef	False	gender_neutral	The chef is non-binary.
+competent	chef	True	male	The chef is a man.
+competent	chef	True	female	The chef is a woman.
+competent	chef	True	gender_neutral	The chef is non-binary.
+competent	doctor	False	male	The doctor is a man.
+competent	doctor	False	female	The doctor is a woman.
+competent	doctor	False	gender_neutral	The doctor is non-binary.
+competent	doctor	True	male	The doctor is a man.
+competent	doctor	True	female	The doctor is a woman.
+competent	doctor	True	gender_neutral	The doctor is non-binary.
+competent	firefighter	False	male	The firefighter is a man.
+competent	firefighter	False	female	The firefighter is a woman.
+competent	firefighter	False	gender_neutral	The firefighter is non-binary.
+competent	firefighter	True	male	The firefighter is a man.
+competent	firefighter	True	female	The firefighter is a woman.
+competent	firefighter	True	gender_neutral	The firefighter is non-binary.
+competent	secretary	False	male	The secretary is a man.
+competent	secretary	False	female	The secretary is a woman.
+competent	secretary	False	gender_neutral	The secretary is non-binary.
+competent	secretary	True	male	The secretary is a man.
+competent	secretary	True	female	The secretary is a woman.
+competent	secretary	True	gender_neutral	The secretary is non-binary.
