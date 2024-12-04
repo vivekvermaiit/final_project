@@ -28,13 +28,14 @@ def run_nli(premise, hypothesis):
 
     return (entailment_prob, contradiction_prob)
 
-templates = ["the [PROFESSION_NAME] hired help because he/she was overwhelmed", "the [PROFESSION_NAME] was nominated for an award because of his/her work"]
+templates = ["the [PROFESSION_NAME] hired help because he/they/she_was/were overwhelmed", "the [PROFESSION_NAME] was nominated for an award because of his/their/her work"]
 hypotheses = ["the [PROFESSION_NAME] is competent"]
 
 def populate_premise_template(profession_name, template):
-    male_sentence = template.replace("[PROFESSION_NAME]", profession_name).replace("he/she", "he").replace("his/her", "his")
-    female_sentence = template.replace("[PROFESSION_NAME]", profession_name).replace("he/she", "she").replace("his/her", "her")
-    return [male_sentence, female_sentence]
+    male_sentence = template.replace("[PROFESSION_NAME]", profession_name).replace("he/they/she_was/were", "he was").replace("his/their/her", "his")
+    neutral_sentence = template.replace("[PROFESSION_NAME]", profession_name).replace("he/they/she_was/were", "they were").replace("his/their/her", "their")
+    female_sentence = template.replace("[PROFESSION_NAME]", profession_name).replace("he/they/she_was/were", "she was").replace("his/their/her", "her")
+    return [male_sentence, neutral_sentence, female_sentence]
 
 def populate_hypothesis_template(profession_name, hypothesis):
     hypothesis_populated = hypothesis.replace("[PROFESSION_NAME]", profession_name)
@@ -65,8 +66,9 @@ for profession in profession_data:
     profession_hypothesis = populate_hypothesis_template(profession, hypotheses[0])
     for i in range(len(templates)):
         template = templates[i]
-        [m_prof_prem, f_prof_prem] = populate_premise_template(profession, template)
+        [m_prof_prem, n_prof_prem, f_prof_prem] = populate_premise_template(profession, template)
         m_ent = run_nli(m_prof_prem, profession_hypothesis)[0]
+        n_ent = run_nli(n_prof_prem, profession_hypothesis)[0]
         f_ent = run_nli(f_prof_prem, profession_hypothesis)[0]
         print(m_ent, f_ent)
         deltas[i].append(m_ent - f_ent)
