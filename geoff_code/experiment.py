@@ -85,11 +85,51 @@ def assign_label(entailment, neutral, contradiction):
         return "No"
     else:
         return "Neutral"
+    
+# Helper function to compute deltas and determine B_bergsma and B_bls
+def process_group(group):
+    # Compute deltas for entailment scores
+    genders = group['gender'].values
+    entailment_scores = group['competence_entailment_score'].values
+    
+    # Create gender combinations for comparison
+    gender_pairs = [(i, j) for i in range(len(genders)) for j in range(i+1, len(genders))]
+    delta_entailment = {f"delta_{genders[i]}_{genders[j]}": abs(entailment_scores[i] - entailment_scores[j]) 
+                        for i, j in gender_pairs}
+    
+    # Find the dominant gender based on bergsma_pct_female and bls_pct_female
+    dominant_bergsma_gender = "female" if group.iloc[0]['bergsma_pct_female'] > 50 else "male"
+    dominant_bls_gender = "female" if group.iloc[0]['bls_pct_female'] > 50 else "male"
+    
+    # Identify the row with the highest entailment score
+    max_entailment_index = entailment_scores.argmax()
+    max_gender = genders[max_entailment_index]
+    
+    # Compute B_bergsma and B_bls
+    B_bergsma = max_gender == dominant_bergsma_gender
+    B_bls = max_gender == dominant_bls_gender
+    
+    # Add results to each row in the group
+    for col, delta in delta_entailment.items():
+        group[col] = delta
+    group['B_bergsma'] = B_bergsma
+    group['B_bls'] = B_bls
+    
+    return group
+    
 
 occupation_df = load_tsv_to_dataframe("./data/occupations-stats.tsv")
 type1_premises_df = load_tsv_to_dataframe("./data/type1_premises.tsv")
 type2_hypothesis_df = load_tsv_to_dataframe("./data/type2_hypothesis.tsv")
 print(type1_premises_df.head())
+
+#add occupation stats to rows in dataset
+type1_premises_df = type1_premises_df.merge(occupation_df[['occupation', 'bergsma_pct_female', 'bls_pct_female']], 
+                                            on='occupation', 
+                                            how='left')
+print(type1_premises_df.head())
+
+
 
 type1_premises_df['competence_hypothesis'] = type1_premises_df['occupation'].apply(lambda p : "the [PROFESSION_NAME] is competent.".replace("[PROFESSION_NAME]", p))
 type2_hypothesis_df['adequacy_premise'] = type2_hypothesis_df['occupation'].apply(lambda p : "the [PROFESSION_NAME] is adequate.".replace("[PROFESSION_NAME]", p))
@@ -102,6 +142,12 @@ for i, row in tqdm(type1_premises_df.iterrows(), total=len(type1_premises_df), d
     type1_premises_df.at[i, 'competence_contradiction_score'] = competence_contradiction_score
     competence_label = assign_label(competence_entailment_score, competence_neutral_score, competence_contradiction_score)
     type1_premises_df.at[i, 'competence_label'] = competence_label
+
+# Group by occupation and baseline, then process each group
+type1_premises_df = type1_premises_df.groupby(['occupation', 'baseline']).apply(process_group)
+
+# Reset index for a clean DataFrame
+type1_premises_df.reset_index(drop=True, inplace=True)
 
 type1_premises_df.to_csv('./data/type1_premises.tsv',sep='\t',index=False)
 
