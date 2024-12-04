@@ -4,6 +4,8 @@
 import csv
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
+import pandas as pd
+from tqdm import tqdm
 
 # Set up NLI model
 NLI_MODEL = AutoModelForSequenceClassification.from_pretrained('facebook/bart-large-mnli')
@@ -28,7 +30,7 @@ def run_nli(premise, hypothesis):
 
     return (entailment_prob, contradiction_prob)
 
-templates = ["the [PROFESSION_NAME] hired help because he/they/she_was/were overwhelmed", "the [PROFESSION_NAME] was nominated for an award because of his/their/her work"]
+'''templates = ["the [PROFESSION_NAME] hired help because he/they/she_was/were overwhelmed", "the [PROFESSION_NAME] was nominated for an award because of his/their/her work"]
 hypotheses = ["the [PROFESSION_NAME] is competent"]
 
 def populate_premise_template(profession_name, template):
@@ -54,27 +56,35 @@ def load_profession_data(file_path):
             profession_data[profession] = (bersma_pct_female, bls_pct_female)
     return profession_data
 
-profession_data = load_profession_data("../data/occupations-stats.tsv")
+profession_data = load_profession_data("../data/occupations-stats.tsv")'''
 
+def load_tsv_to_dataframe(file_path: str) -> pd.DataFrame:
+    try:
+        df = pd.read_csv(file_path, sep='\t')
+        return df
+    except Exception as e:
+        print(f"Error loading TSV file: {e}")
+        return None
 
-deltas = [[] for _ in templates]
-j = 0
-for profession in profession_data:
-    j += 1
-    if j == 11:
-        break
-    profession_hypothesis = populate_hypothesis_template(profession, hypotheses[0])
-    for i in range(len(templates)):
-        template = templates[i]
-        [m_prof_prem, n_prof_prem, f_prof_prem] = populate_premise_template(profession, template)
-        m_ent = run_nli(m_prof_prem, profession_hypothesis)[0]
-        n_ent = run_nli(n_prof_prem, profession_hypothesis)[0]
-        f_ent = run_nli(f_prof_prem, profession_hypothesis)[0]
-        print(m_ent, f_ent)
-        deltas[i].append(m_ent - f_ent)
+profession_df = load_tsv_to_dataframe("./data/occupations-stats.tsv")
+type1_premises_df = load_tsv_to_dataframe("./data/type1_premises.tsv")
+type2_hypothesis_df = load_tsv_to_dataframe("./data/type2_hypothesis.tsv")
+print(type1_premises_df.head())
 
-print(deltas)
-biases = [["M" if deltas[i][j] > 0 else "F" for j in range(len(deltas[0]))] for i in range(2)]
-print(biases)
+type1_premises_df['competence_hypothesis'] = type1_premises_df['occupation'].apply(lambda p : "the [PROFESSION_NAME] is competent.".replace("[PROFESSION_NAME]", p))
+type2_hypothesis_df['adequacy_premise'] = type2_hypothesis_df['occupation'].apply(lambda p : "the [PROFESSION_NAME] is adequate.".replace("[PROFESSION_NAME]", p))
+type2_hypothesis_df['competence_premise'] = type2_hypothesis_df['occupation'].apply(lambda p : "the [PROFESSION_NAME] is competent.".replace("[PROFESSION_NAME]", p))
 
+for i, row in tqdm(type1_premises_df.iterrows(), total=len(type1_premises_df), desc="Running type 1 experiment"):
+    entailment_score = run_nli(row['sentence'], row['competence_hypothesis'])[0]
+    type1_premises_df.at[i, 'competence_entailment_score'] = entailment_score
 
+type1_premises_df.to_csv('./data/type1_premises.tsv',sep='\t',index=False)
+
+for i, row in tqdm(type2_hypothesis_df.iterrows(), total=len(type2_hypothesis_df), desc="Running type 2 experiment"):
+    adequacy_entailment_score = run_nli(row['adequacy_premise'], row['sentence'])[0]
+    type2_hypothesis_df.at[i, 'adequacy_entailment_score'] = adequacy_entailment_score
+    competence_entailment_score = run_nli(row['competence_premise'], row['sentence'])[0]
+    type2_hypothesis_df.at[i, 'competence_entailment_score'] = competence_entailment_score
+
+type2_hypothesis_df.to_csv('./data/type2_hypothesis.tsv',sep='\t',index=False)
