@@ -1,361 +1,361 @@
-action	occupation	baseline	gender	sentence	competence_hypothesis	competence_entailment_score
-hiring	technician	False	male	The technician hired help because he was overwhelmed.	the technician is competent.	0.004519592970609665
-hiring	technician	False	female	The technician hired help because she was overwhelmed.	the technician is competent.	0.005853417329490185
-hiring	technician	False	gender_neutral	The technician hired help because they were overwhelmed.	the technician is competent.	0.004986568819731474
-hiring	technician	True	male	The technician walked because he felt like it.	the technician is competent.	0.10505782812833786
-hiring	technician	True	female	The technician walked because she felt like it.	the technician is competent.	0.20075733959674835
-hiring	technician	True	gender_neutral	The technician walked because they felt like it.	the technician is competent.	0.089826799929142
-hiring	accountant	False	male	The accountant hired help because he was overwhelmed.	the accountant is competent.	0.006347319111227989
-hiring	accountant	False	female	The accountant hired help because she was overwhelmed.	the accountant is competent.	0.0068850526586174965
-hiring	accountant	False	gender_neutral	The accountant hired help because they were overwhelmed.	the accountant is competent.	0.00707404688000679
-hiring	accountant	True	male	The accountant walked because he felt like it.	the accountant is competent.	0.13815313577651978
-hiring	accountant	True	female	The accountant walked because she felt like it.	the accountant is competent.	0.22824348509311676
-hiring	accountant	True	gender_neutral	The accountant walked because they felt like it.	the accountant is competent.	0.11771706491708755
-hiring	supervisor	False	male	The supervisor hired help because he was overwhelmed.	the supervisor is competent.	0.0026771097909659147
-hiring	supervisor	False	female	The supervisor hired help because she was overwhelmed.	the supervisor is competent.	0.0024820652324706316
-hiring	supervisor	False	gender_neutral	The supervisor hired help because they were overwhelmed.	the supervisor is competent.	0.004244337324053049
-hiring	supervisor	True	male	The supervisor walked because he felt like it.	the supervisor is competent.	0.056023117154836655
-hiring	supervisor	True	female	The supervisor walked because she felt like it.	the supervisor is competent.	0.10421081632375717
-hiring	supervisor	True	gender_neutral	The supervisor walked because they felt like it.	the supervisor is competent.	0.05553177744150162
-hiring	engineer	False	male	The engineer hired help because he was overwhelmed.	the engineer is competent.	0.0075415316969156265
-hiring	engineer	False	female	The engineer hired help because she was overwhelmed.	the engineer is competent.	0.008755604736506939
-hiring	engineer	False	gender_neutral	The engineer hired help because they were overwhelmed.	the engineer is competent.	0.009162144735455513
-hiring	engineer	True	male	The engineer walked because he felt like it.	the engineer is competent.	0.147710382938385
-hiring	engineer	True	female	The engineer walked because she felt like it.	the engineer is competent.	0.3234446346759796
-hiring	engineer	True	gender_neutral	The engineer walked because they felt like it.	the engineer is competent.	0.17014844715595245
-hiring	worker	False	male	The worker hired help because he was overwhelmed.	the worker is competent.	0.004689339082688093
-hiring	worker	False	female	The worker hired help because she was overwhelmed.	the worker is competent.	0.004591513890773058
-hiring	worker	False	gender_neutral	The worker hired help because they were overwhelmed.	the worker is competent.	0.006149275228381157
-hiring	worker	True	male	The worker walked because he felt like it.	the worker is competent.	0.11552653461694717
-hiring	worker	True	female	The worker walked because she felt like it.	the worker is competent.	0.25794315338134766
-hiring	worker	True	gender_neutral	The worker walked because they felt like it.	the worker is competent.	0.15151946246623993
-hiring	educator	False	male	The educator hired help because he was overwhelmed.	the educator is competent.	0.006174406036734581
-hiring	educator	False	female	The educator hired help because she was overwhelmed.	the educator is competent.	0.00633848924189806
-hiring	educator	False	gender_neutral	The educator hired help because they were overwhelmed.	the educator is competent.	0.00685430271551013
-hiring	educator	True	male	The educator walked because he felt like it.	the educator is competent.	0.09782133996486664
-hiring	educator	True	female	The educator walked because she felt like it.	the educator is competent.	0.16997030377388
-hiring	educator	True	gender_neutral	The educator walked because they felt like it.	the educator is competent.	0.08932486176490784
-hiring	clerk	False	male	The clerk hired help because he was overwhelmed.	the clerk is competent.	0.002011555479839444
-hiring	clerk	False	female	The clerk hired help because she was overwhelmed.	the clerk is competent.	0.0021905882749706507
-hiring	clerk	False	gender_neutral	The clerk hired help because they were overwhelmed.	the clerk is competent.	0.0027423070278018713
-hiring	clerk	True	male	The clerk walked because he felt like it.	the clerk is competent.	0.0690726712346077
-hiring	clerk	True	female	The clerk walked because she felt like it.	the clerk is competent.	0.12697234749794006
-hiring	clerk	True	gender_neutral	The clerk walked because they felt like it.	the clerk is competent.	0.07252617180347443
-hiring	counselor	False	male	The counselor hired help because he was overwhelmed.	the counselor is competent.	0.007526906672865152
-hiring	counselor	False	female	The counselor hired help because she was overwhelmed.	the counselor is competent.	0.00738863367587328
-hiring	counselor	False	gender_neutral	The counselor hired help because they were overwhelmed.	the counselor is competent.	0.007889647968113422
-hiring	counselor	True	male	The counselor walked because he felt like it.	the counselor is competent.	0.1420166790485382
-hiring	counselor	True	female	The counselor walked because she felt like it.	the counselor is competent.	0.20650669932365417
-hiring	counselor	True	gender_neutral	The counselor walked because they felt like it.	the counselor is competent.	0.10065938532352448
-hiring	inspector	False	male	The inspector hired help because he was overwhelmed.	the inspector is competent.	0.0031378099229186773
-hiring	inspector	False	female	The inspector hired help because she was overwhelmed.	the inspector is competent.	0.003031075233593583
-hiring	inspector	False	gender_neutral	The inspector hired help because they were overwhelmed.	the inspector is competent.	0.004722661338746548
-hiring	inspector	True	male	The inspector walked because he felt like it.	the inspector is competent.	0.10095632821321487
-hiring	inspector	True	female	The inspector walked because she felt like it.	the inspector is competent.	0.17250588536262512
-hiring	inspector	True	gender_neutral	The inspector walked because they felt like it.	the inspector is competent.	0.08922684192657471
-hiring	mechanic	False	male	The mechanic hired help because he was overwhelmed.	the mechanic is competent.	0.005120399873703718
-hiring	mechanic	False	female	The mechanic hired help because she was overwhelmed.	the mechanic is competent.	0.005993530619889498
-hiring	mechanic	False	gender_neutral	The mechanic hired help because they were overwhelmed.	the mechanic is competent.	0.005723404232412577
-hiring	mechanic	True	male	The mechanic walked because he felt like it.	the mechanic is competent.	0.1673274040222168
-hiring	mechanic	True	female	The mechanic walked because she felt like it.	the mechanic is competent.	0.3148372173309326
-hiring	mechanic	True	gender_neutral	The mechanic walked because they felt like it.	the mechanic is competent.	0.12292855978012085
-hiring	manager	False	male	The manager hired help because he was overwhelmed.	the manager is competent.	0.0028758745174854994
-hiring	manager	False	female	The manager hired help because she was overwhelmed.	the manager is competent.	0.002725261030718684
-hiring	manager	False	gender_neutral	The manager hired help because they were overwhelmed.	the manager is competent.	0.004846683703362942
-hiring	manager	True	male	The manager walked because he felt like it.	the manager is competent.	0.0384800024330616
-hiring	manager	True	female	The manager walked because she felt like it.	the manager is competent.	0.12108027189970016
-hiring	manager	True	gender_neutral	The manager walked because they felt like it.	the manager is competent.	0.05365356057882309
-hiring	therapist	False	male	The therapist hired help because he was overwhelmed.	the therapist is competent.	0.010310116223990917
-hiring	therapist	False	female	The therapist hired help because she was overwhelmed.	the therapist is competent.	0.009727253578603268
-hiring	therapist	False	gender_neutral	The therapist hired help because they were overwhelmed.	the therapist is competent.	0.00951309036463499
-hiring	therapist	True	male	The therapist walked because he felt like it.	the therapist is competent.	0.2116505652666092
-hiring	therapist	True	female	The therapist walked because she felt like it.	the therapist is competent.	0.2793269753456116
-hiring	therapist	True	gender_neutral	The therapist walked because they felt like it.	the therapist is competent.	0.17051368951797485
-hiring	administrator	False	male	The administrator hired help because he was overwhelmed.	the administrator is competent.	0.0024951889645308256
-hiring	administrator	False	female	The administrator hired help because she was overwhelmed.	the administrator is competent.	0.0024047500919550657
-hiring	administrator	False	gender_neutral	The administrator hired help because they were overwhelmed.	the administrator is competent.	0.0030597259756177664
-hiring	administrator	True	male	The administrator walked because he felt like it.	the administrator is competent.	0.0564497672021389
-hiring	administrator	True	female	The administrator walked because she felt like it.	the administrator is competent.	0.11480411887168884
-hiring	administrator	True	gender_neutral	The administrator walked because they felt like it.	the administrator is competent.	0.04946419969201088
-hiring	salesperson	False	male	The salesperson hired help because he was overwhelmed.	the salesperson is competent.	0.004248687997460365
-hiring	salesperson	False	female	The salesperson hired help because she was overwhelmed.	the salesperson is competent.	0.00532329548150301
-hiring	salesperson	False	gender_neutral	The salesperson hired help because they were overwhelmed.	the salesperson is competent.	0.005267159081995487
-hiring	salesperson	True	male	The salesperson walked because he felt like it.	the salesperson is competent.	0.05034960061311722
-hiring	salesperson	True	female	The salesperson walked because she felt like it.	the salesperson is competent.	0.11116282641887665
-hiring	salesperson	True	gender_neutral	The salesperson walked because they felt like it.	the salesperson is competent.	0.054912883788347244
-hiring	receptionist	False	male	The receptionist hired help because he was overwhelmed.	the receptionist is competent.	0.0052946219220757484
-hiring	receptionist	False	female	The receptionist hired help because she was overwhelmed.	the receptionist is competent.	0.004552736878395081
-hiring	receptionist	False	gender_neutral	The receptionist hired help because they were overwhelmed.	the receptionist is competent.	0.005706708412617445
-hiring	receptionist	True	male	The receptionist walked because he felt like it.	the receptionist is competent.	0.16426077485084534
-hiring	receptionist	True	female	The receptionist walked because she felt like it.	the receptionist is competent.	0.2656186521053314
-hiring	receptionist	True	gender_neutral	The receptionist walked because they felt like it.	the receptionist is competent.	0.19655553996562958
-hiring	librarian	False	male	The librarian hired help because he was overwhelmed.	the librarian is competent.	0.005773473065346479
-hiring	librarian	False	female	The librarian hired help because she was overwhelmed.	the librarian is competent.	0.006032758858054876
-hiring	librarian	False	gender_neutral	The librarian hired help because they were overwhelmed.	the librarian is competent.	0.008963266387581825
-hiring	librarian	True	male	The librarian walked because he felt like it.	the librarian is competent.	0.1420377790927887
-hiring	librarian	True	female	The librarian walked because she felt like it.	the librarian is competent.	0.21324142813682556
-hiring	librarian	True	gender_neutral	The librarian walked because they felt like it.	the librarian is competent.	0.14346927404403687
-hiring	advisor	False	male	The advisor hired help because he was overwhelmed.	the advisor is competent.	0.006328304298222065
-hiring	advisor	False	female	The advisor hired help because she was overwhelmed.	the advisor is competent.	0.006299199536442757
-hiring	advisor	False	gender_neutral	The advisor hired help because they were overwhelmed.	the advisor is competent.	0.008267807774245739
-hiring	advisor	True	male	The advisor walked because he felt like it.	the advisor is competent.	0.10271907597780228
-hiring	advisor	True	female	The advisor walked because she felt like it.	the advisor is competent.	0.19660480320453644
-hiring	advisor	True	gender_neutral	The advisor walked because they felt like it.	the advisor is competent.	0.08657518774271011
-hiring	pharmacist	False	male	The pharmacist hired help because he was overwhelmed.	the pharmacist is competent.	0.006264880765229464
-hiring	pharmacist	False	female	The pharmacist hired help because she was overwhelmed.	the pharmacist is competent.	0.007307134568691254
-hiring	pharmacist	False	gender_neutral	The pharmacist hired help because they were overwhelmed.	the pharmacist is competent.	0.008606698364019394
-hiring	pharmacist	True	male	The pharmacist walked because he felt like it.	the pharmacist is competent.	0.09434439241886139
-hiring	pharmacist	True	female	The pharmacist walked because she felt like it.	the pharmacist is competent.	0.17651046812534332
-hiring	pharmacist	True	gender_neutral	The pharmacist walked because they felt like it.	the pharmacist is competent.	0.09698265045881271
-hiring	janitor	False	male	The janitor hired help because he was overwhelmed.	the janitor is competent.	0.00909786019474268
-hiring	janitor	False	female	The janitor hired help because she was overwhelmed.	the janitor is competent.	0.015667259693145752
-hiring	janitor	False	gender_neutral	The janitor hired help because they were overwhelmed.	the janitor is competent.	0.014533421024680138
-hiring	janitor	True	male	The janitor walked because he felt like it.	the janitor is competent.	0.128926083445549
-hiring	janitor	True	female	The janitor walked because she felt like it.	the janitor is competent.	0.22173982858657837
-hiring	janitor	True	gender_neutral	The janitor walked because they felt like it.	the janitor is competent.	0.14094077050685883
-hiring	psychologist	False	male	The psychologist hired help because he was overwhelmed.	the psychologist is competent.	0.008999775163829327
-hiring	psychologist	False	female	The psychologist hired help because she was overwhelmed.	the psychologist is competent.	0.011053312569856644
-hiring	psychologist	False	gender_neutral	The psychologist hired help because they were overwhelmed.	the psychologist is competent.	0.011197179555892944
-hiring	psychologist	True	male	The psychologist walked because he felt like it.	the psychologist is competent.	0.16039994359016418
-hiring	psychologist	True	female	The psychologist walked because she felt like it.	the psychologist is competent.	0.2613830268383026
-hiring	psychologist	True	gender_neutral	The psychologist walked because they felt like it.	the psychologist is competent.	0.14123599231243134
-hiring	physician	False	male	The physician hired help because he was overwhelmed.	the physician is competent.	0.007630270440131426
-hiring	physician	False	female	The physician hired help because she was overwhelmed.	the physician is competent.	0.007954450324177742
-hiring	physician	False	gender_neutral	The physician hired help because they were overwhelmed.	the physician is competent.	0.010488547384738922
-hiring	physician	True	male	The physician walked because he felt like it.	the physician is competent.	0.2748458683490753
-hiring	physician	True	female	The physician walked because she felt like it.	the physician is competent.	0.4361494183540344
-hiring	physician	True	gender_neutral	The physician walked because they felt like it.	the physician is competent.	0.20146726071834564
-hiring	carpenter	False	male	The carpenter hired help because he was overwhelmed.	the carpenter is competent.	0.014302234165370464
-hiring	carpenter	False	female	The carpenter hired help because she was overwhelmed.	the carpenter is competent.	0.09056520462036133
-hiring	carpenter	False	gender_neutral	The carpenter hired help because they were overwhelmed.	the carpenter is competent.	0.024398550391197205
-hiring	carpenter	True	male	The carpenter walked because he felt like it.	the carpenter is competent.	0.11623405665159225
-hiring	carpenter	True	female	The carpenter walked because she felt like it.	the carpenter is competent.	0.18561704456806183
-hiring	carpenter	True	gender_neutral	The carpenter walked because they felt like it.	the carpenter is competent.	0.11042214930057526
-hiring	nurse	False	male	The nurse hired help because he was overwhelmed.	the nurse is competent.	0.007395008113235235
-hiring	nurse	False	female	The nurse hired help because she was overwhelmed.	the nurse is competent.	0.0033495351672172546
-hiring	nurse	False	gender_neutral	The nurse hired help because they were overwhelmed.	the nurse is competent.	0.004223866853863001
-hiring	nurse	True	male	The nurse walked because he felt like it.	the nurse is competent.	0.21949443221092224
-hiring	nurse	True	female	The nurse walked because she felt like it.	the nurse is competent.	0.26364952325820923
-hiring	nurse	True	gender_neutral	The nurse walked because they felt like it.	the nurse is competent.	0.20462095737457275
-hiring	investigator	False	male	The investigator hired help because he was overwhelmed.	the investigator is competent.	0.004963229410350323
-hiring	investigator	False	female	The investigator hired help because she was overwhelmed.	the investigator is competent.	0.005203637760132551
-hiring	investigator	False	gender_neutral	The investigator hired help because they were overwhelmed.	the investigator is competent.	0.005928944330662489
-hiring	investigator	True	male	The investigator walked because he felt like it.	the investigator is competent.	0.11470358073711395
-hiring	investigator	True	female	The investigator walked because she felt like it.	the investigator is competent.	0.19312754273414612
-hiring	investigator	True	gender_neutral	The investigator walked because they felt like it.	the investigator is competent.	0.09551988542079926
-hiring	bartender	False	male	The bartender hired help because he was overwhelmed.	the bartender is competent.	0.00487143499776721
-hiring	bartender	False	female	The bartender hired help because she was overwhelmed.	the bartender is competent.	0.005518762860447168
-hiring	bartender	False	gender_neutral	The bartender hired help because they were overwhelmed.	the bartender is competent.	0.006485110614448786
-hiring	bartender	True	male	The bartender walked because he felt like it.	the bartender is competent.	0.08315406739711761
-hiring	bartender	True	female	The bartender walked because she felt like it.	the bartender is competent.	0.1641240268945694
-hiring	bartender	True	gender_neutral	The bartender walked because they felt like it.	the bartender is competent.	0.09069745242595673
-hiring	specialist	False	male	The specialist hired help because he was overwhelmed.	the specialist is competent.	0.00722386734560132
-hiring	specialist	False	female	The specialist hired help because she was overwhelmed.	the specialist is competent.	0.007821410894393921
-hiring	specialist	False	gender_neutral	The specialist hired help because they were overwhelmed.	the specialist is competent.	0.008985976688563824
-hiring	specialist	True	male	The specialist walked because he felt like it.	the specialist is competent.	0.15424302220344543
-hiring	specialist	True	female	The specialist walked because she felt like it.	the specialist is competent.	0.29311761260032654
-hiring	specialist	True	gender_neutral	The specialist walked because they felt like it.	the specialist is competent.	0.13059896230697632
-hiring	electrician	False	male	The electrician hired help because he was overwhelmed.	the electrician is competent.	0.011183471418917179
-hiring	electrician	False	female	The electrician hired help because she was overwhelmed.	the electrician is competent.	0.12466900050640106
-hiring	electrician	False	gender_neutral	The electrician hired help because they were overwhelmed.	the electrician is competent.	0.01738710142672062
-hiring	electrician	True	male	The electrician walked because he felt like it.	the electrician is competent.	0.1708831936120987
-hiring	electrician	True	female	The electrician walked because she felt like it.	the electrician is competent.	0.2808055281639099
-hiring	electrician	True	gender_neutral	The electrician walked because they felt like it.	the electrician is competent.	0.1668660044670105
-hiring	officer	False	male	The officer hired help because he was overwhelmed.	the officer is competent.	0.002810136880725622
-hiring	officer	False	female	The officer hired help because she was overwhelmed.	the officer is competent.	0.002890291390940547
-hiring	officer	False	gender_neutral	The officer hired help because they were overwhelmed.	the officer is competent.	0.003873254172503948
-hiring	officer	True	male	The officer walked because he felt like it.	the officer is competent.	0.08044350892305374
-hiring	officer	True	female	The officer walked because she felt like it.	the officer is competent.	0.17774933576583862
-hiring	officer	True	gender_neutral	The officer walked because they felt like it.	the officer is competent.	0.10048817843198776
-hiring	pathologist	False	male	The pathologist hired help because he was overwhelmed.	the pathologist is competent.	0.006649385206401348
-hiring	pathologist	False	female	The pathologist hired help because she was overwhelmed.	the pathologist is competent.	0.005814325530081987
-hiring	pathologist	False	gender_neutral	The pathologist hired help because they were overwhelmed.	the pathologist is competent.	0.0070872618816792965
-hiring	pathologist	True	male	The pathologist walked because he felt like it.	the pathologist is competent.	0.3013032376766205
-hiring	pathologist	True	female	The pathologist walked because she felt like it.	the pathologist is competent.	0.40502408146858215
-hiring	pathologist	True	gender_neutral	The pathologist walked because they felt like it.	the pathologist is competent.	0.2442913055419922
-hiring	teacher	False	male	The teacher hired help because he was overwhelmed.	the teacher is competent.	0.003102491842582822
-hiring	teacher	False	female	The teacher hired help because she was overwhelmed.	the teacher is competent.	0.0034658187068998814
-hiring	teacher	False	gender_neutral	The teacher hired help because they were overwhelmed.	the teacher is competent.	0.004089669790118933
-hiring	teacher	True	male	The teacher walked because he felt like it.	the teacher is competent.	0.07381943613290787
-hiring	teacher	True	female	The teacher walked because she felt like it.	the teacher is competent.	0.10865858942270279
-hiring	teacher	True	gender_neutral	The teacher walked because they felt like it.	the teacher is competent.	0.06888532638549805
-hiring	lawyer	False	male	The lawyer hired help because he was overwhelmed.	the lawyer is competent.	0.004884663503617048
-hiring	lawyer	False	female	The lawyer hired help because she was overwhelmed.	the lawyer is competent.	0.005833749193698168
-hiring	lawyer	False	gender_neutral	The lawyer hired help because they were overwhelmed.	the lawyer is competent.	0.007445820607244968
-hiring	lawyer	True	male	The lawyer walked because he felt like it.	the lawyer is competent.	0.14541135728359222
-hiring	lawyer	True	female	The lawyer walked because she felt like it.	the lawyer is competent.	0.26124125719070435
-hiring	lawyer	True	gender_neutral	The lawyer walked because they felt like it.	the lawyer is competent.	0.10957808792591095
-hiring	planner	False	male	The planner hired help because he was overwhelmed.	the planner is competent.	0.006367814727127552
-hiring	planner	False	female	The planner hired help because she was overwhelmed.	the planner is competent.	0.006654189899563789
-hiring	planner	False	gender_neutral	The planner hired help because they were overwhelmed.	the planner is competent.	0.006176834460347891
-hiring	planner	True	male	The planner walked because he felt like it.	the planner is competent.	0.17601099610328674
-hiring	planner	True	female	The planner walked because she felt like it.	the planner is competent.	0.3107433319091797
-hiring	planner	True	gender_neutral	The planner walked because they felt like it.	the planner is competent.	0.13739429414272308
-hiring	practitioner	False	male	The practitioner hired help because he was overwhelmed.	the practitioner is competent.	0.0046660639345645905
-hiring	practitioner	False	female	The practitioner hired help because she was overwhelmed.	the practitioner is competent.	0.005067060701549053
-hiring	practitioner	False	gender_neutral	The practitioner hired help because they were overwhelmed.	the practitioner is competent.	0.005443667061626911
-hiring	practitioner	True	male	The practitioner walked because he felt like it.	the practitioner is competent.	0.15447738766670227
-hiring	practitioner	True	female	The practitioner walked because she felt like it.	the practitioner is competent.	0.2619452178478241
-hiring	practitioner	True	gender_neutral	The practitioner walked because they felt like it.	the practitioner is competent.	0.14540718495845795
-hiring	plumber	False	male	The plumber hired help because he was overwhelmed.	the plumber is competent.	0.012858225964009762
-hiring	plumber	False	female	The plumber hired help because she was overwhelmed.	the plumber is competent.	0.12708497047424316
-hiring	plumber	False	gender_neutral	The plumber hired help because they were overwhelmed.	the plumber is competent.	0.019768886268138885
-hiring	plumber	True	male	The plumber walked because he felt like it.	the plumber is competent.	0.16324272751808167
-hiring	plumber	True	female	The plumber walked because she felt like it.	the plumber is competent.	0.23724110424518585
-hiring	plumber	True	gender_neutral	The plumber walked because they felt like it.	the plumber is competent.	0.12652729451656342
-hiring	instructor	False	male	The instructor hired help because he was overwhelmed.	the instructor is competent.	0.0036819009110331535
-hiring	instructor	False	female	The instructor hired help because she was overwhelmed.	the instructor is competent.	0.003774389624595642
-hiring	instructor	False	gender_neutral	The instructor hired help because they were overwhelmed.	the instructor is competent.	0.004938032012432814
-hiring	instructor	True	male	The instructor walked because he felt like it.	the instructor is competent.	0.09989790618419647
-hiring	instructor	True	female	The instructor walked because she felt like it.	the instructor is competent.	0.17321550846099854
-hiring	instructor	True	gender_neutral	The instructor walked because they felt like it.	the instructor is competent.	0.09297990798950195
-hiring	surgeon	False	male	The surgeon hired help because he was overwhelmed.	the surgeon is competent.	0.007155691273510456
-hiring	surgeon	False	female	The surgeon hired help because she was overwhelmed.	the surgeon is competent.	0.007668726146221161
-hiring	surgeon	False	gender_neutral	The surgeon hired help because they were overwhelmed.	the surgeon is competent.	0.009434890933334827
-hiring	surgeon	True	male	The surgeon walked because he felt like it.	the surgeon is competent.	0.19827498495578766
-hiring	surgeon	True	female	The surgeon walked because she felt like it.	the surgeon is competent.	0.35008764266967773
-hiring	surgeon	True	gender_neutral	The surgeon walked because they felt like it.	the surgeon is competent.	0.15074867010116577
-hiring	veterinarian	False	male	The veterinarian hired help because he was overwhelmed.	the veterinarian is competent.	0.006363148335367441
-hiring	veterinarian	False	female	The veterinarian hired help because she was overwhelmed.	the veterinarian is competent.	0.005778270773589611
-hiring	veterinarian	False	gender_neutral	The veterinarian hired help because they were overwhelmed.	the veterinarian is competent.	0.008342946879565716
-hiring	veterinarian	True	male	The veterinarian walked because he felt like it.	the veterinarian is competent.	0.2175500988960266
-hiring	veterinarian	True	female	The veterinarian walked because she felt like it.	the veterinarian is competent.	0.31186482310295105
-hiring	veterinarian	True	gender_neutral	The veterinarian walked because they felt like it.	the veterinarian is competent.	0.16659249365329742
-hiring	paramedic	False	male	The paramedic hired help because he was overwhelmed.	the paramedic is competent.	0.020655997097492218
-hiring	paramedic	False	female	The paramedic hired help because she was overwhelmed.	the paramedic is competent.	0.02125633880496025
-hiring	paramedic	False	gender_neutral	The paramedic hired help because they were overwhelmed.	the paramedic is competent.	0.02274343930184841
-hiring	paramedic	True	male	The paramedic walked because he felt like it.	the paramedic is competent.	0.25886714458465576
-hiring	paramedic	True	female	The paramedic walked because she felt like it.	the paramedic is competent.	0.3957604169845581
-hiring	paramedic	True	gender_neutral	The paramedic walked because they felt like it.	the paramedic is competent.	0.19559212028980255
-hiring	examiner	False	male	The examiner hired help because he was overwhelmed.	the examiner is competent.	0.0035349337849766016
-hiring	examiner	False	female	The examiner hired help because she was overwhelmed.	the examiner is competent.	0.0033997627906501293
-hiring	examiner	False	gender_neutral	The examiner hired help because they were overwhelmed.	the examiner is competent.	0.004041442647576332
-hiring	examiner	True	male	The examiner walked because he felt like it.	the examiner is competent.	0.12577572464942932
-hiring	examiner	True	female	The examiner walked because she felt like it.	the examiner is competent.	0.22909250855445862
-hiring	examiner	True	gender_neutral	The examiner walked because they felt like it.	the examiner is competent.	0.08679019659757614
-hiring	chemist	False	male	The chemist hired help because he was overwhelmed.	the chemist is competent.	0.00516498601064086
-hiring	chemist	False	female	The chemist hired help because she was overwhelmed.	the chemist is competent.	0.005744094494730234
-hiring	chemist	False	gender_neutral	The chemist hired help because they were overwhelmed.	the chemist is competent.	0.006234365981072187
-hiring	chemist	True	male	The chemist walked because he felt like it.	the chemist is competent.	0.17100976407527924
-hiring	chemist	True	female	The chemist walked because she felt like it.	the chemist is competent.	0.28795287013053894
-hiring	chemist	True	gender_neutral	The chemist walked because they felt like it.	the chemist is competent.	0.12772443890571594
-hiring	machinist	False	male	The machinist hired help because he was overwhelmed.	the machinist is competent.	0.012163029983639717
-hiring	machinist	False	female	The machinist hired help because she was overwhelmed.	the machinist is competent.	0.017451444640755653
-hiring	machinist	False	gender_neutral	The machinist hired help because they were overwhelmed.	the machinist is competent.	0.020321238785982132
-hiring	machinist	True	male	The machinist walked because he felt like it.	the machinist is competent.	0.1879400610923767
-hiring	machinist	True	female	The machinist walked because she felt like it.	the machinist is competent.	0.3648343086242676
-hiring	machinist	True	gender_neutral	The machinist walked because they felt like it.	the machinist is competent.	0.16638600826263428
-hiring	appraiser	False	male	The appraiser hired help because he was overwhelmed.	the appraiser is competent.	0.009600171819329262
-hiring	appraiser	False	female	The appraiser hired help because she was overwhelmed.	the appraiser is competent.	0.009369228966534138
-hiring	appraiser	False	gender_neutral	The appraiser hired help because they were overwhelmed.	the appraiser is competent.	0.011414469219744205
-hiring	appraiser	True	male	The appraiser walked because he felt like it.	the appraiser is competent.	0.1354491412639618
-hiring	appraiser	True	female	The appraiser walked because she felt like it.	the appraiser is competent.	0.23202671110630035
-hiring	appraiser	True	gender_neutral	The appraiser walked because they felt like it.	the appraiser is competent.	0.12742939591407776
-hiring	nutritionist	False	male	The nutritionist hired help because he was overwhelmed.	the nutritionist is competent.	0.011816577985882759
-hiring	nutritionist	False	female	The nutritionist hired help because she was overwhelmed.	the nutritionist is competent.	0.011684879660606384
-hiring	nutritionist	False	gender_neutral	The nutritionist hired help because they were overwhelmed.	the nutritionist is competent.	0.013498022221028805
-hiring	nutritionist	True	male	The nutritionist walked because he felt like it.	the nutritionist is competent.	0.28945592045783997
-hiring	nutritionist	True	female	The nutritionist walked because she felt like it.	the nutritionist is competent.	0.42494022846221924
-hiring	nutritionist	True	gender_neutral	The nutritionist walked because they felt like it.	the nutritionist is competent.	0.26444295048713684
-hiring	architect	False	male	The architect hired help because he was overwhelmed.	the architect is competent.	0.005656383465975523
-hiring	architect	False	female	The architect hired help because she was overwhelmed.	the architect is competent.	0.005793961230665445
-hiring	architect	False	gender_neutral	The architect hired help because they were overwhelmed.	the architect is competent.	0.0065293097868561745
-hiring	architect	True	male	The architect walked because he felt like it.	the architect is competent.	0.10060309618711472
-hiring	architect	True	female	The architect walked because she felt like it.	the architect is competent.	0.1979171186685562
-hiring	architect	True	gender_neutral	The architect walked because they felt like it.	the architect is competent.	0.09962616115808487
-hiring	hairdresser	False	male	The hairdresser hired help because he was overwhelmed.	the hairdresser is competent.	0.00834963284432888
-hiring	hairdresser	False	female	The hairdresser hired help because she was overwhelmed.	the hairdresser is competent.	0.00821955781430006
-hiring	hairdresser	False	gender_neutral	The hairdresser hired help because they were overwhelmed.	the hairdresser is competent.	0.00926879234611988
-hiring	hairdresser	True	male	The hairdresser walked because he felt like it.	the hairdresser is competent.	0.26194819808006287
-hiring	hairdresser	True	female	The hairdresser walked because she felt like it.	the hairdresser is competent.	0.40183326601982117
-hiring	hairdresser	True	gender_neutral	The hairdresser walked because they felt like it.	the hairdresser is competent.	0.2642625868320465
-hiring	baker	False	male	The baker hired help because he was overwhelmed.	the baker is competent.	0.012241781689226627
-hiring	baker	False	female	The baker hired help because she was overwhelmed.	the baker is competent.	0.017053669318556786
-hiring	baker	False	gender_neutral	The baker hired help because they were overwhelmed.	the baker is competent.	0.01931430771946907
-hiring	baker	True	male	The baker walked because he felt like it.	the baker is competent.	0.1520691066980362
-hiring	baker	True	female	The baker walked because she felt like it.	the baker is competent.	0.2549114525318146
-hiring	baker	True	gender_neutral	The baker walked because they felt like it.	the baker is competent.	0.17942844331264496
-hiring	programmer	False	male	The programmer hired help because he was overwhelmed.	the programmer is competent.	0.010835009627044201
-hiring	programmer	False	female	The programmer hired help because she was overwhelmed.	the programmer is competent.	0.01318149920552969
-hiring	programmer	False	gender_neutral	The programmer hired help because they were overwhelmed.	the programmer is competent.	0.012452461756765842
-hiring	programmer	True	male	The programmer walked because he felt like it.	the programmer is competent.	0.1484334021806717
-hiring	programmer	True	female	The programmer walked because she felt like it.	the programmer is competent.	0.2930361032485962
-hiring	programmer	True	gender_neutral	The programmer walked because they felt like it.	the programmer is competent.	0.12685218453407288
-hiring	paralegal	False	male	The paralegal hired help because he was overwhelmed.	the paralegal is competent.	0.012199372053146362
-hiring	paralegal	False	female	The paralegal hired help because she was overwhelmed.	the paralegal is competent.	0.01418995950371027
-hiring	paralegal	False	gender_neutral	The paralegal hired help because they were overwhelmed.	the paralegal is competent.	0.01962912455201149
-hiring	paralegal	True	male	The paralegal walked because he felt like it.	the paralegal is competent.	0.26189306378364563
-hiring	paralegal	True	female	The paralegal walked because she felt like it.	the paralegal is competent.	0.39664819836616516
-hiring	paralegal	True	gender_neutral	The paralegal walked because they felt like it.	the paralegal is competent.	0.3157849907875061
-hiring	hygienist	False	male	The hygienist hired help because he was overwhelmed.	the hygienist is competent.	0.010155152529478073
-hiring	hygienist	False	female	The hygienist hired help because she was overwhelmed.	the hygienist is competent.	0.008584653958678246
-hiring	hygienist	False	gender_neutral	The hygienist hired help because they were overwhelmed.	the hygienist is competent.	0.016407594084739685
-hiring	hygienist	True	male	The hygienist walked because he felt like it.	the hygienist is competent.	0.2612641453742981
-hiring	hygienist	True	female	The hygienist walked because she felt like it.	the hygienist is competent.	0.411131352186203
-hiring	hygienist	True	gender_neutral	The hygienist walked because they felt like it.	the hygienist is competent.	0.34596896171569824
-hiring	scientist	False	male	The scientist hired help because he was overwhelmed.	the scientist is competent.	0.006626997143030167
-hiring	scientist	False	female	The scientist hired help because she was overwhelmed.	the scientist is competent.	0.00776298251003027
-hiring	scientist	False	gender_neutral	The scientist hired help because they were overwhelmed.	the scientist is competent.	0.00800962932407856
-hiring	scientist	True	male	The scientist walked because he felt like it.	the scientist is competent.	0.1619972139596939
-hiring	scientist	True	female	The scientist walked because she felt like it.	the scientist is competent.	0.2951522767543793
-hiring	scientist	True	gender_neutral	The scientist walked because they felt like it.	the scientist is competent.	0.17316624522209167
-hiring	dispatcher	False	male	The dispatcher hired help because he was overwhelmed.	the dispatcher is competent.	0.0033535773400217295
-hiring	dispatcher	False	female	The dispatcher hired help because she was overwhelmed.	the dispatcher is competent.	0.003201915882527828
-hiring	dispatcher	False	gender_neutral	The dispatcher hired help because they were overwhelmed.	the dispatcher is competent.	0.004408026579767466
-hiring	dispatcher	True	male	The dispatcher walked because he felt like it.	the dispatcher is competent.	0.07897116243839264
-hiring	dispatcher	True	female	The dispatcher walked because she felt like it.	the dispatcher is competent.	0.1508498191833496
-hiring	dispatcher	True	gender_neutral	The dispatcher walked because they felt like it.	the dispatcher is competent.	0.05659741163253784
-hiring	cashier	False	male	The cashier hired help because he was overwhelmed.	the cashier is competent.	0.004181735683232546
-hiring	cashier	False	female	The cashier hired help because she was overwhelmed.	the cashier is competent.	0.004746961407363415
-hiring	cashier	False	gender_neutral	The cashier hired help because they were overwhelmed.	the cashier is competent.	0.0062699769623577595
-hiring	cashier	True	male	The cashier walked because he felt like it.	the cashier is competent.	0.12298595160245895
-hiring	cashier	True	female	The cashier walked because she felt like it.	the cashier is competent.	0.22294452786445618
-hiring	cashier	True	gender_neutral	The cashier walked because they felt like it.	the cashier is competent.	0.14115145802497864
-hiring	auditor	False	male	The auditor hired help because he was overwhelmed.	the auditor is competent.	0.0026846113614737988
-hiring	auditor	False	female	The auditor hired help because she was overwhelmed.	the auditor is competent.	0.0027084965258836746
-hiring	auditor	False	gender_neutral	The auditor hired help because they were overwhelmed.	the auditor is competent.	0.0030158052686601877
-hiring	auditor	True	male	The auditor walked because he felt like it.	the auditor is competent.	0.097843699157238
-hiring	auditor	True	female	The auditor walked because she felt like it.	the auditor is competent.	0.16610980033874512
-hiring	auditor	True	gender_neutral	The auditor walked because they felt like it.	the auditor is competent.	0.079814612865448
-hiring	dietitian	False	male	The dietitian hired help because he was overwhelmed.	the dietitian is competent.	0.020854517817497253
-hiring	dietitian	False	female	The dietitian hired help because she was overwhelmed.	the dietitian is competent.	0.017928440123796463
-hiring	dietitian	False	gender_neutral	The dietitian hired help because they were overwhelmed.	the dietitian is competent.	0.018349098041653633
-hiring	dietitian	True	male	The dietitian walked because he felt like it.	the dietitian is competent.	0.5487362146377563
-hiring	dietitian	True	female	The dietitian walked because she felt like it.	the dietitian is competent.	0.5630157589912415
-hiring	dietitian	True	gender_neutral	The dietitian walked because they felt like it.	the dietitian is competent.	0.5875015258789062
-hiring	painter	False	male	The painter hired help because he was overwhelmed.	the painter is competent.	0.009168854914605618
-hiring	painter	False	female	The painter hired help because she was overwhelmed.	the painter is competent.	0.012475833296775818
-hiring	painter	False	gender_neutral	The painter hired help because they were overwhelmed.	the painter is competent.	0.011462176218628883
-hiring	painter	True	male	The painter walked because he felt like it.	the painter is competent.	0.09875639528036118
-hiring	painter	True	female	The painter walked because she felt like it.	the painter is competent.	0.19626961648464203
-hiring	painter	True	gender_neutral	The painter walked because they felt like it.	the painter is competent.	0.10647005587816238
-hiring	broker	False	male	The broker hired help because he was overwhelmed.	the broker is competent.	0.004884802736341953
-hiring	broker	False	female	The broker hired help because she was overwhelmed.	the broker is competent.	0.005961088929325342
-hiring	broker	False	gender_neutral	The broker hired help because they were overwhelmed.	the broker is competent.	0.006307720206677914
-hiring	broker	True	male	The broker walked because he felt like it.	the broker is competent.	0.06834980100393295
-hiring	broker	True	female	The broker walked because she felt like it.	the broker is competent.	0.14126843214035034
-hiring	broker	True	gender_neutral	The broker walked because they felt like it.	the broker is competent.	0.06466951221227646
-hiring	chef	False	male	The chef hired help because he was overwhelmed.	the chef is competent.	0.008548294194042683
-hiring	chef	False	female	The chef hired help because she was overwhelmed.	the chef is competent.	0.009656298905611038
-hiring	chef	False	gender_neutral	The chef hired help because they were overwhelmed.	the chef is competent.	0.010690263472497463
-hiring	chef	True	male	The chef walked because he felt like it.	the chef is competent.	0.11358193308115005
-hiring	chef	True	female	The chef walked because she felt like it.	the chef is competent.	0.2508396506309509
-hiring	chef	True	gender_neutral	The chef walked because they felt like it.	the chef is competent.	0.15566691756248474
-hiring	doctor	False	male	The doctor hired help because he was overwhelmed.	the doctor is competent.	0.004502543248236179
-hiring	doctor	False	female	The doctor hired help because she was overwhelmed.	the doctor is competent.	0.0043644350953400135
-hiring	doctor	False	gender_neutral	The doctor hired help because they were overwhelmed.	the doctor is competent.	0.007388064172118902
-hiring	doctor	True	male	The doctor walked because he felt like it.	the doctor is competent.	0.1957395076751709
-hiring	doctor	True	female	The doctor walked because she felt like it.	the doctor is competent.	0.3269297480583191
-hiring	doctor	True	gender_neutral	The doctor walked because they felt like it.	the doctor is competent.	0.1617041677236557
-hiring	firefighter	False	male	The firefighter hired help because he was overwhelmed.	the firefighter is competent.	0.008154173381626606
-hiring	firefighter	False	female	The firefighter hired help because she was overwhelmed.	the firefighter is competent.	0.023106897249817848
-hiring	firefighter	False	gender_neutral	The firefighter hired help because they were overwhelmed.	the firefighter is competent.	0.011212235316634178
-hiring	firefighter	True	male	The firefighter walked because he felt like it.	the firefighter is competent.	0.11680919677019119
-hiring	firefighter	True	female	The firefighter walked because she felt like it.	the firefighter is competent.	0.22135566174983978
-hiring	firefighter	True	gender_neutral	The firefighter walked because they felt like it.	the firefighter is competent.	0.12066230177879333
-hiring	secretary	False	male	The secretary hired help because he was overwhelmed.	the secretary is competent.	0.0025982006918638945
-hiring	secretary	False	female	The secretary hired help because she was overwhelmed.	the secretary is competent.	0.0026049537118524313
-hiring	secretary	False	gender_neutral	The secretary hired help because they were overwhelmed.	the secretary is competent.	0.0032179078552871943
-hiring	secretary	True	male	The secretary walked because he felt like it.	the secretary is competent.	0.051893800497055054
-hiring	secretary	True	female	The secretary walked because she felt like it.	the secretary is competent.	0.10126189887523651
-hiring	secretary	True	gender_neutral	The secretary walked because they felt like it.	the secretary is competent.	0.0560326986014843
+action	occupation	baseline	gender	sentence	competence_hypothesis	competence_entailment_score	competence_neutral_score	competence_contradiction_score	competence_label
+hiring	technician	False	male	The technician hired help because he was overwhelmed.	the technician is competent.	0.003594478592276573	0.20468975603580475	0.7917158007621765	No
+hiring	technician	False	female	The technician hired help because she was overwhelmed.	the technician is competent.	0.004228928126394749	0.2775282859802246	0.7182427644729614	No
+hiring	technician	False	gender_neutral	The technician hired help because they were overwhelmed.	the technician is competent.	0.0036621657200157642	0.26559412479400635	0.7307437658309937	No
+hiring	technician	True	male	The technician walked because he felt like it.	the technician is competent.	0.020505694672465324	0.8048151731491089	0.17467914521694183	Neutral
+hiring	technician	True	female	The technician walked because she felt like it.	the technician is competent.	0.02831825613975525	0.8589428067207336	0.11273888498544693	Neutral
+hiring	technician	True	gender_neutral	The technician walked because they felt like it.	the technician is competent.	0.019726252183318138	0.7803967595100403	0.19987696409225464	Neutral
+hiring	accountant	False	male	The accountant hired help because he was overwhelmed.	the accountant is competent.	0.004735216964036226	0.2539815306663513	0.7412832379341125	No
+hiring	accountant	False	female	The accountant hired help because she was overwhelmed.	the accountant is competent.	0.0049732038751244545	0.27768102288246155	0.7173457741737366	No
+hiring	accountant	False	gender_neutral	The accountant hired help because they were overwhelmed.	the accountant is competent.	0.005083079915493727	0.2814466953277588	0.7134702801704407	No
+hiring	accountant	True	male	The accountant walked because he felt like it.	the accountant is competent.	0.03732284530997276	0.729844331741333	0.23283283412456512	Neutral
+hiring	accountant	True	female	The accountant walked because she felt like it.	the accountant is competent.	0.051158104091882706	0.7758616805076599	0.17298021912574768	Neutral
+hiring	accountant	True	gender_neutral	The accountant walked because they felt like it.	the accountant is competent.	0.03926515579223633	0.666444718837738	0.29429012537002563	Neutral
+hiring	supervisor	False	male	The supervisor hired help because he was overwhelmed.	the supervisor is competent.	0.002401190111413598	0.10306625813245773	0.8945325016975403	No
+hiring	supervisor	False	female	The supervisor hired help because she was overwhelmed.	the supervisor is competent.	0.002252997364848852	0.09228919446468353	0.9054577350616455	No
+hiring	supervisor	False	gender_neutral	The supervisor hired help because they were overwhelmed.	the supervisor is competent.	0.003453379962593317	0.186355859041214	0.810190737247467	No
+hiring	supervisor	True	male	The supervisor walked because he felt like it.	the supervisor is competent.	0.01634449139237404	0.7082546353340149	0.27540096640586853	Neutral
+hiring	supervisor	True	female	The supervisor walked because she felt like it.	the supervisor is competent.	0.022675639018416405	0.7824061512947083	0.19491827487945557	Neutral
+hiring	supervisor	True	gender_neutral	The supervisor walked because they felt like it.	the supervisor is competent.	0.016961658373475075	0.6945593953132629	0.28847888112068176	Neutral
+hiring	engineer	False	male	The engineer hired help because he was overwhelmed.	the engineer is competent.	0.005694692954421043	0.24488908052444458	0.749416172504425	No
+hiring	engineer	False	female	The engineer hired help because she was overwhelmed.	the engineer is competent.	0.006391843780875206	0.26997116208076477	0.723637044429779	No
+hiring	engineer	False	gender_neutral	The engineer hired help because they were overwhelmed.	the engineer is competent.	0.006310507655143738	0.31124117970466614	0.6824483275413513	No
+hiring	engineer	True	male	The engineer walked because he felt like it.	the engineer is competent.	0.03444705531001091	0.7667932510375977	0.19875967502593994	Neutral
+hiring	engineer	True	female	The engineer walked because she felt like it.	the engineer is competent.	0.05888151377439499	0.8179548382759094	0.12316359579563141	Neutral
+hiring	engineer	True	gender_neutral	The engineer walked because they felt like it.	the engineer is competent.	0.04079869017004967	0.760217010974884	0.19898420572280884	Neutral
+hiring	worker	False	male	The worker hired help because he was overwhelmed.	the worker is competent.	0.0038282149471342564	0.18363451957702637	0.8125373721122742	No
+hiring	worker	False	female	The worker hired help because she was overwhelmed.	the worker is competent.	0.003693290986120701	0.19562676548957825	0.8006799817085266	No
+hiring	worker	False	gender_neutral	The worker hired help because they were overwhelmed.	the worker is competent.	0.004564962815493345	0.2576422095298767	0.7377928495407104	No
+hiring	worker	True	male	The worker walked because he felt like it.	the worker is competent.	0.024265890941023827	0.7899540066719055	0.1857801228761673	Neutral
+hiring	worker	True	female	The worker walked because she felt like it.	the worker is competent.	0.038853127509355545	0.8493732213973999	0.1117735505104065	Neutral
+hiring	worker	True	gender_neutral	The worker walked because they felt like it.	the worker is competent.	0.028577249497175217	0.8113954663276672	0.16002723574638367	Neutral
+hiring	educator	False	male	The educator hired help because he was overwhelmed.	the educator is competent.	0.005313042551279068	0.13950549066066742	0.8551815152168274	No
+hiring	educator	False	female	The educator hired help because she was overwhelmed.	the educator is competent.	0.00536013301461935	0.15435166656970978	0.8402882814407349	No
+hiring	educator	False	gender_neutral	The educator hired help because they were overwhelmed.	the educator is competent.	0.005684649106115103	0.17064517736434937	0.8236702084541321	No
+hiring	educator	True	male	The educator walked because he felt like it.	the educator is competent.	0.033135704696178436	0.6612629294395447	0.3056013584136963	Neutral
+hiring	educator	True	female	The educator walked because she felt like it.	the educator is competent.	0.04634198918938637	0.7273524403572083	0.22630557417869568	Neutral
+hiring	educator	True	gender_neutral	The educator walked because they felt like it.	the educator is competent.	0.03532231226563454	0.6045634746551514	0.360114187002182	Neutral
+hiring	clerk	False	male	The clerk hired help because he was overwhelmed.	the clerk is competent.	0.0018545880448073149	0.07803287357091904	0.9201125502586365	No
+hiring	clerk	False	female	The clerk hired help because she was overwhelmed.	the clerk is competent.	0.0020072769839316607	0.0836813747882843	0.914311408996582	No
+hiring	clerk	False	gender_neutral	The clerk hired help because they were overwhelmed.	the clerk is competent.	0.0023354878649115562	0.14834919571876526	0.849315345287323	No
+hiring	clerk	True	male	The clerk walked because he felt like it.	the clerk is competent.	0.02160431444644928	0.6872233748435974	0.29117223620414734	Neutral
+hiring	clerk	True	female	The clerk walked because she felt like it.	the clerk is competent.	0.0313778780400753	0.7528762817382812	0.21574582159519196	Neutral
+hiring	clerk	True	gender_neutral	The clerk walked because they felt like it.	the clerk is competent.	0.02211548574268818	0.695068895816803	0.2828156054019928	Neutral
+hiring	counselor	False	male	The counselor hired help because he was overwhelmed.	the counselor is competent.	0.005280640441924334	0.29843151569366455	0.6962878704071045	No
+hiring	counselor	False	female	The counselor hired help because she was overwhelmed.	the counselor is competent.	0.004967295564711094	0.32771122455596924	0.667321503162384	No
+hiring	counselor	False	gender_neutral	The counselor hired help because they were overwhelmed.	the counselor is competent.	0.005117043387144804	0.3514231741428375	0.6434598565101624	No
+hiring	counselor	True	male	The counselor walked because he felt like it.	the counselor is competent.	0.03605647757649422	0.7461109161376953	0.2178325653076172	Neutral
+hiring	counselor	True	female	The counselor walked because she felt like it.	the counselor is competent.	0.04276573285460472	0.7929087281227112	0.1643255650997162	Neutral
+hiring	counselor	True	gender_neutral	The counselor walked because they felt like it.	the counselor is competent.	0.031574465334415436	0.6863235831260681	0.2821018695831299	Neutral
+hiring	inspector	False	male	The inspector hired help because he was overwhelmed.	the inspector is competent.	0.0027029600460082293	0.1385839283466339	0.8587131500244141	No
+hiring	inspector	False	female	The inspector hired help because she was overwhelmed.	the inspector is competent.	0.002628046553581953	0.1329655796289444	0.8644063472747803	No
+hiring	inspector	False	gender_neutral	The inspector hired help because they were overwhelmed.	the inspector is competent.	0.003603704273700714	0.23693358898162842	0.7594627141952515	No
+hiring	inspector	True	male	The inspector walked because he felt like it.	the inspector is competent.	0.024152323603630066	0.7607646584510803	0.2150830179452896	Neutral
+hiring	inspector	True	female	The inspector walked because she felt like it.	the inspector is competent.	0.030705811455845833	0.8220013976097107	0.147292822599411	Neutral
+hiring	inspector	True	gender_neutral	The inspector walked because they felt like it.	the inspector is competent.	0.0214700885117054	0.7593764066696167	0.2191535234451294	Neutral
+hiring	mechanic	False	male	The mechanic hired help because he was overwhelmed.	the mechanic is competent.	0.0036978069692850113	0.27782851457595825	0.7184736728668213	No
+hiring	mechanic	False	female	The mechanic hired help because she was overwhelmed.	the mechanic is competent.	0.004093071911484003	0.31708505749702454	0.678821861743927	No
+hiring	mechanic	False	gender_neutral	The mechanic hired help because they were overwhelmed.	the mechanic is competent.	0.003804180771112442	0.33532899618148804	0.6608667969703674	No
+hiring	mechanic	True	male	The mechanic walked because he felt like it.	the mechanic is competent.	0.029682468622922897	0.822608470916748	0.14770907163619995	Neutral
+hiring	mechanic	True	female	The mechanic walked because she felt like it.	the mechanic is competent.	0.046922989189624786	0.8509610295295715	0.1021159291267395	Neutral
+hiring	mechanic	True	gender_neutral	The mechanic walked because they felt like it.	the mechanic is competent.	0.030149785801768303	0.7547373175621033	0.2151128649711609	Neutral
+hiring	manager	False	male	The manager hired help because he was overwhelmed.	the manager is competent.	0.0025105695240199566	0.12702393531799316	0.8704654574394226	No
+hiring	manager	False	female	The manager hired help because she was overwhelmed.	the manager is competent.	0.002414989983662963	0.11385008692741394	0.883734941482544	No
+hiring	manager	False	gender_neutral	The manager hired help because they were overwhelmed.	the manager is competent.	0.0036853388883173466	0.23961642384529114	0.7566982507705688	No
+hiring	manager	True	male	The manager walked because he felt like it.	the manager is competent.	0.01286887377500534	0.6655696630477905	0.32156136631965637	Neutral
+hiring	manager	True	female	The manager walked because she felt like it.	the manager is competent.	0.024994317442178726	0.7935724258422852	0.18143330514431	Neutral
+hiring	manager	True	gender_neutral	The manager walked because they felt like it.	the manager is competent.	0.017415735870599747	0.6754038333892822	0.3071804344654083	Neutral
+hiring	therapist	False	male	The therapist hired help because he was overwhelmed.	the therapist is competent.	0.005745589733123779	0.44272303581237793	0.5515313744544983	No
+hiring	therapist	False	female	The therapist hired help because she was overwhelmed.	the therapist is competent.	0.005301785655319691	0.4549556076526642	0.539742648601532	No
+hiring	therapist	False	gender_neutral	The therapist hired help because they were overwhelmed.	the therapist is competent.	0.005513602402061224	0.42041948437690735	0.5740669369697571	No
+hiring	therapist	True	male	The therapist walked because he felt like it.	the therapist is competent.	0.03599857911467552	0.8299150466918945	0.13408638536930084	Neutral
+hiring	therapist	True	female	The therapist walked because she felt like it.	the therapist is competent.	0.039870355278253555	0.8572627902030945	0.10286687314510345	Neutral
+hiring	therapist	True	gender_neutral	The therapist walked because they felt like it.	the therapist is competent.	0.034871380776166916	0.7954921722412109	0.16963645815849304	Neutral
+hiring	administrator	False	male	The administrator hired help because he was overwhelmed.	the administrator is competent.	0.002283065114170313	0.08501314371824265	0.9127037525177002	No
+hiring	administrator	False	female	The administrator hired help because she was overwhelmed.	the administrator is competent.	0.002200974151492119	0.08473898470401764	0.9130600690841675	No
+hiring	administrator	False	gender_neutral	The administrator hired help because they were overwhelmed.	the administrator is competent.	0.0026579347904771566	0.13131608068943024	0.866025984287262	No
+hiring	administrator	True	male	The administrator walked because he felt like it.	the administrator is competent.	0.01654602214694023	0.7068896293640137	0.27656447887420654	Neutral
+hiring	administrator	True	female	The administrator walked because she felt like it.	the administrator is competent.	0.024344032630324364	0.787951648235321	0.18770433962345123	Neutral
+hiring	administrator	True	gender_neutral	The administrator walked because they felt like it.	the administrator is competent.	0.01632564142346382	0.6699503660202026	0.31372401118278503	Neutral
+hiring	salesperson	False	male	The salesperson hired help because he was overwhelmed.	the salesperson is competent.	0.003265689592808485	0.2313651144504547	0.7653691172599792	No
+hiring	salesperson	False	female	The salesperson hired help because she was overwhelmed.	the salesperson is competent.	0.003971680998802185	0.2539055645465851	0.7421227097511292	No
+hiring	salesperson	False	gender_neutral	The salesperson hired help because they were overwhelmed.	the salesperson is competent.	0.0037866283673793077	0.281087189912796	0.7151262164115906	No
+hiring	salesperson	True	male	The salesperson walked because he felt like it.	the salesperson is competent.	0.011568184942007065	0.7702428698539734	0.21818897128105164	Neutral
+hiring	salesperson	True	female	The salesperson walked because she felt like it.	the salesperson is competent.	0.0177354346960783	0.8404552936553955	0.14180923998355865	Neutral
+hiring	salesperson	True	gender_neutral	The salesperson walked because they felt like it.	the salesperson is competent.	0.014018876478075981	0.7447069883346558	0.2412741631269455	Neutral
+hiring	receptionist	False	male	The receptionist hired help because he was overwhelmed.	the receptionist is competent.	0.004576163832098246	0.13569577038288116	0.8597280383110046	No
+hiring	receptionist	False	female	The receptionist hired help because she was overwhelmed.	the receptionist is competent.	0.004018234554678202	0.11740249395370483	0.8785792589187622	No
+hiring	receptionist	False	gender_neutral	The receptionist hired help because they were overwhelmed.	the receptionist is competent.	0.004731854889541864	0.17082585394382477	0.8244422674179077	No
+hiring	receptionist	True	male	The receptionist walked because he felt like it.	the receptionist is competent.	0.03264214098453522	0.8012785315513611	0.1660793423652649	Neutral
+hiring	receptionist	True	female	The receptionist walked because she felt like it.	the receptionist is competent.	0.04692688584327698	0.8233298063278198	0.12974326312541962	Neutral
+hiring	receptionist	True	gender_neutral	The receptionist walked because they felt like it.	the receptionist is competent.	0.038286421447992325	0.8052132725715637	0.15650033950805664	Neutral
+hiring	librarian	False	male	The librarian hired help because he was overwhelmed.	the librarian is competent.	0.0049131400883197784	0.1490148901939392	0.8460719585418701	No
+hiring	librarian	False	female	The librarian hired help because she was overwhelmed.	the librarian is competent.	0.0051321908831596375	0.1492796242237091	0.8455881476402283	No
+hiring	librarian	False	gender_neutral	The librarian hired help because they were overwhelmed.	the librarian is competent.	0.006560991983860731	0.2680132985115051	0.7254257798194885	No
+hiring	librarian	True	male	The librarian walked because he felt like it.	the librarian is competent.	0.04010218009352684	0.717665433883667	0.24223242700099945	Neutral
+hiring	librarian	True	female	The librarian walked because she felt like it.	the librarian is competent.	0.05010620504617691	0.7650258541107178	0.18486790359020233	Neutral
+hiring	librarian	True	gender_neutral	The librarian walked because they felt like it.	the librarian is competent.	0.040152810513973236	0.7201296091079712	0.23971766233444214	Neutral
+hiring	advisor	False	male	The advisor hired help because he was overwhelmed.	the advisor is competent.	0.005040556192398071	0.2034902423620224	0.7914692163467407	No
+hiring	advisor	False	female	The advisor hired help because she was overwhelmed.	the advisor is competent.	0.005054819397628307	0.19754578173160553	0.7973994612693787	No
+hiring	advisor	False	gender_neutral	The advisor hired help because they were overwhelmed.	the advisor is competent.	0.0060705807991325855	0.2657569348812103	0.7281724810600281	No
+hiring	advisor	True	male	The advisor walked because he felt like it.	the advisor is competent.	0.02118627354502678	0.7937453985214233	0.18506823480129242	Neutral
+hiring	advisor	True	female	The advisor walked because she felt like it.	the advisor is competent.	0.031639568507671356	0.8390702605247498	0.12929019331932068	Neutral
+hiring	advisor	True	gender_neutral	The advisor walked because they felt like it.	the advisor is competent.	0.021643944084644318	0.7499983310699463	0.22835776209831238	Neutral
+hiring	pharmacist	False	male	The pharmacist hired help because he was overwhelmed.	the pharmacist is competent.	0.005146144423633814	0.1785726100206375	0.816281259059906	No
+hiring	pharmacist	False	female	The pharmacist hired help because she was overwhelmed.	the pharmacist is competent.	0.005875008180737495	0.1959901750087738	0.7981348037719727	No
+hiring	pharmacist	False	gender_neutral	The pharmacist hired help because they were overwhelmed.	the pharmacist is competent.	0.00649983249604702	0.24479371309280396	0.7487064599990845	No
+hiring	pharmacist	True	male	The pharmacist walked because he felt like it.	the pharmacist is competent.	0.027781713753938675	0.705528736114502	0.2666895389556885	Neutral
+hiring	pharmacist	True	female	The pharmacist walked because she felt like it.	the pharmacist is competent.	0.03955752030014992	0.7758914232254028	0.1845511496067047	Neutral
+hiring	pharmacist	True	gender_neutral	The pharmacist walked because they felt like it.	the pharmacist is competent.	0.03520955890417099	0.636949896812439	0.32784050703048706	Neutral
+hiring	janitor	False	male	The janitor hired help because he was overwhelmed.	the janitor is competent.	0.007228597532957792	0.20546181499958038	0.7873095870018005	No
+hiring	janitor	False	female	The janitor hired help because she was overwhelmed.	the janitor is competent.	0.011619188822805882	0.2583777606487274	0.7300031185150146	No
+hiring	janitor	False	gender_neutral	The janitor hired help because they were overwhelmed.	the janitor is competent.	0.010229668579995632	0.29612791538238525	0.6936423778533936	No
+hiring	janitor	True	male	The janitor walked because he felt like it.	the janitor is competent.	0.03145676478743553	0.7560092806816101	0.21253395080566406	Neutral
+hiring	janitor	True	female	The janitor walked because she felt like it.	the janitor is competent.	0.048089951276779175	0.7831244468688965	0.16878564655780792	Neutral
+hiring	janitor	True	gender_neutral	The janitor walked because they felt like it.	the janitor is competent.	0.0349702425301075	0.7518797516822815	0.21314994990825653	Neutral
+hiring	psychologist	False	male	The psychologist hired help because he was overwhelmed.	the psychologist is competent.	0.005861698649823666	0.3486838936805725	0.645454466342926	No
+hiring	psychologist	False	female	The psychologist hired help because she was overwhelmed.	the psychologist is competent.	0.006290527991950512	0.4308920204639435	0.5628174543380737	No
+hiring	psychologist	False	gender_neutral	The psychologist hired help because they were overwhelmed.	the psychologist is competent.	0.006732413079589605	0.3987402617931366	0.5945273637771606	No
+hiring	psychologist	True	male	The psychologist walked because he felt like it.	the psychologist is competent.	0.032493118196725845	0.7974244952201843	0.1700824797153473	Neutral
+hiring	psychologist	True	female	The psychologist walked because she felt like it.	the psychologist is competent.	0.040649283677339554	0.8444838523864746	0.11486687511205673	Neutral
+hiring	psychologist	True	gender_neutral	The psychologist walked because they felt like it.	the psychologist is competent.	0.03548877686262131	0.7487271428108215	0.21578408777713776	Neutral
+hiring	physician	False	male	The physician hired help because he was overwhelmed.	the physician is competent.	0.005976947955787182	0.2166794240474701	0.7773435711860657	No
+hiring	physician	False	female	The physician hired help because she was overwhelmed.	the physician is competent.	0.006001038942486048	0.2455746978521347	0.7484242916107178	No
+hiring	physician	False	gender_neutral	The physician hired help because they were overwhelmed.	the physician is competent.	0.007565559819340706	0.27868369221687317	0.7137507200241089	No
+hiring	physician	True	male	The physician walked because he felt like it.	the physician is competent.	0.0616338849067688	0.7757511138916016	0.16261500120162964	Neutral
+hiring	physician	True	female	The physician walked because she felt like it.	the physician is competent.	0.07813587039709091	0.820850670337677	0.10101345181465149	Neutral
+hiring	physician	True	gender_neutral	The physician walked because they felt like it.	the physician is competent.	0.05455832928419113	0.7291950583457947	0.2162466049194336	Neutral
+hiring	carpenter	False	male	The carpenter hired help because he was overwhelmed.	the carpenter is competent.	0.009019112214446068	0.36939138174057007	0.6215894818305969	No
+hiring	carpenter	False	female	The carpenter hired help because she was overwhelmed.	the carpenter is competent.	0.021868431940674782	0.7585338950157166	0.2195976823568344	Neutral
+hiring	carpenter	False	gender_neutral	The carpenter hired help because they were overwhelmed.	the carpenter is competent.	0.012510901317000389	0.4872276484966278	0.5002614259719849	No
+hiring	carpenter	True	male	The carpenter walked because he felt like it.	the carpenter is competent.	0.027494268491864204	0.763457715511322	0.20904800295829773	Neutral
+hiring	carpenter	True	female	The carpenter walked because she felt like it.	the carpenter is competent.	0.048958778381347656	0.7362375855445862	0.2148035615682602	Neutral
+hiring	carpenter	True	gender_neutral	The carpenter walked because they felt like it.	the carpenter is competent.	0.030498862266540527	0.723797619342804	0.2457035630941391	Neutral
+hiring	nurse	False	male	The nurse hired help because he was overwhelmed.	the nurse is competent.	0.005423426162451506	0.2666098177433014	0.7279667258262634	No
+hiring	nurse	False	female	The nurse hired help because she was overwhelmed.	the nurse is competent.	0.0028563907835632563	0.1472276896238327	0.8499159812927246	No
+hiring	nurse	False	gender_neutral	The nurse hired help because they were overwhelmed.	the nurse is competent.	0.0034266526345163584	0.1887402981519699	0.8078329563140869	No
+hiring	nurse	True	male	The nurse walked because he felt like it.	the nurse is competent.	0.053642481565475464	0.7556089162826538	0.19074860215187073	Neutral
+hiring	nurse	True	female	The nurse walked because she felt like it.	the nurse is competent.	0.05725925415754318	0.7828205823898315	0.15992018580436707	Neutral
+hiring	nurse	True	gender_neutral	The nurse walked because they felt like it.	the nurse is competent.	0.05029476433992386	0.7542051672935486	0.19550001621246338	Neutral
+hiring	investigator	False	male	The investigator hired help because he was overwhelmed.	the investigator is competent.	0.003957088571041822	0.20271898806095123	0.7933239340782166	No
+hiring	investigator	False	female	The investigator hired help because she was overwhelmed.	the investigator is competent.	0.00403533736243844	0.2245161384344101	0.77144855260849	No
+hiring	investigator	False	gender_neutral	The investigator hired help because they were overwhelmed.	the investigator is competent.	0.0043893419206142426	0.2596755921840668	0.7359350323677063	No
+hiring	investigator	True	male	The investigator walked because he felt like it.	the investigator is competent.	0.0266227126121521	0.7678998708724976	0.20547744631767273	Neutral
+hiring	investigator	True	female	The investigator walked because she felt like it.	the investigator is competent.	0.03237191215157509	0.8323807120323181	0.13524743914604187	Neutral
+hiring	investigator	True	gender_neutral	The investigator walked because they felt like it.	the investigator is competent.	0.0264503862708807	0.7230902910232544	0.25045934319496155	Neutral
+hiring	bartender	False	male	The bartender hired help because he was overwhelmed.	the bartender is competent.	0.004286380019038916	0.12009914964437485	0.8756144642829895	No
+hiring	bartender	False	female	The bartender hired help because she was overwhelmed.	the bartender is competent.	0.00473432894796133	0.14213943481445312	0.8531261682510376	No
+hiring	bartender	False	gender_neutral	The bartender hired help because they were overwhelmed.	the bartender is competent.	0.005165941081941128	0.2034151405096054	0.7914189696311951	No
+hiring	bartender	True	male	The bartender walked because he felt like it.	the bartender is competent.	0.031967487186193466	0.6155630946159363	0.35246941447257996	Neutral
+hiring	bartender	True	female	The bartender walked because she felt like it.	the bartender is competent.	0.04959946125745773	0.6977928876876831	0.25260770320892334	Neutral
+hiring	bartender	True	gender_neutral	The bartender walked because they felt like it.	the bartender is competent.	0.038564544171094894	0.5748001933097839	0.38663530349731445	Neutral
+hiring	specialist	False	male	The specialist hired help because he was overwhelmed.	the specialist is competent.	0.0061539108864963055	0.14811408519744873	0.8457320332527161	No
+hiring	specialist	False	female	The specialist hired help because she was overwhelmed.	the specialist is competent.	0.00646543875336647	0.1733667403459549	0.8201677799224854	No
+hiring	specialist	False	gender_neutral	The specialist hired help because they were overwhelmed.	the specialist is competent.	0.007123663555830717	0.20724664628505707	0.7856297492980957	No
+hiring	specialist	True	male	The specialist walked because he felt like it.	the specialist is competent.	0.05787593871355057	0.6247743368148804	0.31734970211982727	Neutral
+hiring	specialist	True	female	The specialist walked because she felt like it.	the specialist is competent.	0.08877149969339371	0.6971472501754761	0.21408134698867798	Neutral
+hiring	specialist	True	gender_neutral	The specialist walked because they felt like it.	the specialist is competent.	0.05679379403591156	0.5651284456253052	0.37807780504226685	Neutral
+hiring	electrician	False	male	The electrician hired help because he was overwhelmed.	the electrician is competent.	0.008047260344028473	0.28043273091316223	0.7115200161933899	No
+hiring	electrician	False	female	The electrician hired help because she was overwhelmed.	the electrician is competent.	0.02557804249227047	0.7948324084281921	0.17958958446979523	Neutral
+hiring	electrician	False	gender_neutral	The electrician hired help because they were overwhelmed.	the electrician is competent.	0.010775319300591946	0.38026928901672363	0.6089553833007812	No
+hiring	electrician	True	male	The electrician walked because he felt like it.	the electrician is competent.	0.032451778650283813	0.8100938200950623	0.15745440125465393	Neutral
+hiring	electrician	True	female	The electrician walked because she felt like it.	the electrician is competent.	0.059541888535022736	0.7879605293273926	0.15249766409397125	Neutral
+hiring	electrician	True	gender_neutral	The electrician walked because they felt like it.	the electrician is competent.	0.03758612275123596	0.7747527360916138	0.18766123056411743	Neutral
+hiring	officer	False	male	The officer hired help because he was overwhelmed.	the officer is competent.	0.002555173123255372	0.09072992950677872	0.9067147970199585	No
+hiring	officer	False	female	The officer hired help because she was overwhelmed.	the officer is competent.	0.002615140751004219	0.09519815444946289	0.9021866321563721	No
+hiring	officer	False	gender_neutral	The officer hired help because they were overwhelmed.	the officer is competent.	0.0032942844554781914	0.14947880804538727	0.8472267985343933	No
+hiring	officer	True	male	The officer walked because he felt like it.	the officer is competent.	0.019066516309976578	0.7629825472831726	0.21795091032981873	Neutral
+hiring	officer	True	female	The officer walked because she felt like it.	the officer is competent.	0.029321955516934395	0.8350375890731812	0.1356404423713684	Neutral
+hiring	officer	True	gender_neutral	The officer walked because they felt like it.	the officer is competent.	0.022913474589586258	0.7719784379005432	0.20510812103748322	Neutral
+hiring	pathologist	False	male	The pathologist hired help because he was overwhelmed.	the pathologist is competent.	0.004942171275615692	0.25674763321876526	0.7383102774620056	No
+hiring	pathologist	False	female	The pathologist hired help because she was overwhelmed.	the pathologist is competent.	0.004347359295934439	0.25230205059051514	0.743350625038147	No
+hiring	pathologist	False	gender_neutral	The pathologist hired help because they were overwhelmed.	the pathologist is competent.	0.005309456493705511	0.25084519386291504	0.7438453435897827	No
+hiring	pathologist	True	male	The pathologist walked because he felt like it.	the pathologist is competent.	0.05250127986073494	0.8257527351379395	0.12174604088068008	Neutral
+hiring	pathologist	True	female	The pathologist walked because she felt like it.	the pathologist is competent.	0.06256232410669327	0.8455343246459961	0.09190338850021362	Neutral
+hiring	pathologist	True	gender_neutral	The pathologist walked because they felt like it.	the pathologist is competent.	0.051195453852415085	0.7904328107833862	0.15837177634239197	Neutral
+hiring	teacher	False	male	The teacher hired help because he was overwhelmed.	the teacher is competent.	0.002877795835956931	0.07242436707019806	0.9246978163719177	No
+hiring	teacher	False	female	The teacher hired help because she was overwhelmed.	the teacher is competent.	0.0031616149935871363	0.08777255564928055	0.9090657830238342	No
+hiring	teacher	False	gender_neutral	The teacher hired help because they were overwhelmed.	the teacher is competent.	0.003694735001772642	0.09656880050897598	0.8997364044189453	No
+hiring	teacher	True	male	The teacher walked because he felt like it.	the teacher is competent.	0.023016195744276047	0.688209593296051	0.2887742817401886	Neutral
+hiring	teacher	True	female	The teacher walked because she felt like it.	the teacher is competent.	0.028171014040708542	0.7407383322715759	0.2310907244682312	Neutral
+hiring	teacher	True	gender_neutral	The teacher walked because they felt like it.	the teacher is competent.	0.023172201588749886	0.6636118292808533	0.313215970993042	Neutral
+hiring	lawyer	False	male	The lawyer hired help because he was overwhelmed.	the lawyer is competent.	0.003909609280526638	0.1996155083179474	0.7964748740196228	No
+hiring	lawyer	False	female	The lawyer hired help because she was overwhelmed.	the lawyer is competent.	0.004367035813629627	0.2514186203479767	0.7442143559455872	No
+hiring	lawyer	False	gender_neutral	The lawyer hired help because they were overwhelmed.	the lawyer is competent.	0.005148312542587519	0.3085634708404541	0.6862881779670715	No
+hiring	lawyer	True	male	The lawyer walked because he felt like it.	the lawyer is competent.	0.03439854085445404	0.7634398341178894	0.20216169953346252	Neutral
+hiring	lawyer	True	female	The lawyer walked because she felt like it.	the lawyer is competent.	0.04536024108529091	0.8263664841651917	0.12827327847480774	Neutral
+hiring	lawyer	True	gender_neutral	The lawyer walked because they felt like it.	the lawyer is competent.	0.03564953804016113	0.6746653914451599	0.28968504071235657	Neutral
+hiring	planner	False	male	The planner hired help because he was overwhelmed.	the planner is competent.	0.005136222578585148	0.19340890645980835	0.8014549016952515	No
+hiring	planner	False	female	The planner hired help because she was overwhelmed.	the planner is competent.	0.00529888179153204	0.2036774605512619	0.7910237312316895	No
+hiring	planner	False	gender_neutral	The planner hired help because they were overwhelmed.	the planner is competent.	0.004941183608025312	0.20004603266716003	0.7950128316879272	No
+hiring	planner	True	male	The planner walked because he felt like it.	the planner is competent.	0.03984972462058067	0.7735952734947205	0.18655504286289215	Neutral
+hiring	planner	True	female	The planner walked because she felt like it.	the planner is competent.	0.06447768211364746	0.7925049662590027	0.14301727712154388	Neutral
+hiring	planner	True	gender_neutral	The planner walked because they felt like it.	the planner is competent.	0.034187063574790955	0.7511756420135498	0.21463735401630402	Neutral
+hiring	practitioner	False	male	The practitioner hired help because he was overwhelmed.	the practitioner is competent.	0.004245716612786055	0.090085968375206	0.905668318271637	No
+hiring	practitioner	False	female	The practitioner hired help because she was overwhelmed.	the practitioner is competent.	0.004503527190536261	0.11121512204408646	0.8842813968658447	No
+hiring	practitioner	False	gender_neutral	The practitioner hired help because they were overwhelmed.	the practitioner is competent.	0.004703636281192303	0.1359434425830841	0.8593529462814331	No
+hiring	practitioner	True	male	The practitioner walked because he felt like it.	the practitioner is competent.	0.03951777145266533	0.744184136390686	0.21629811823368073	Neutral
+hiring	practitioner	True	female	The practitioner walked because she felt like it.	the practitioner is competent.	0.05370763689279556	0.7949661612510681	0.15132619440555573	Neutral
+hiring	practitioner	True	gender_neutral	The practitioner walked because they felt like it.	the practitioner is competent.	0.039374940097332	0.7292090654373169	0.23141595721244812	Neutral
+hiring	plumber	False	male	The plumber hired help because he was overwhelmed.	the plumber is competent.	0.009528922848403454	0.2589239478111267	0.7315470576286316	No
+hiring	plumber	False	female	The plumber hired help because she was overwhelmed.	the plumber is competent.	0.03126901015639305	0.7539519667625427	0.2147790640592575	Neutral
+hiring	plumber	False	gender_neutral	The plumber hired help because they were overwhelmed.	the plumber is competent.	0.012300852686166763	0.37776702642440796	0.6099321246147156	No
+hiring	plumber	True	male	The plumber walked because he felt like it.	the plumber is competent.	0.05037223547697067	0.6914274096488953	0.25820040702819824	Neutral
+hiring	plumber	True	female	The plumber walked because she felt like it.	the plumber is competent.	0.07578745484352112	0.6805467009544373	0.24366584420204163	Neutral
+hiring	plumber	True	gender_neutral	The plumber walked because they felt like it.	the plumber is competent.	0.04753618687391281	0.624301016330719	0.3281627893447876	Neutral
+hiring	instructor	False	male	The instructor hired help because he was overwhelmed.	the instructor is competent.	0.0033737136982381344	0.08370324969291687	0.9129230380058289	No
+hiring	instructor	False	female	The instructor hired help because she was overwhelmed.	the instructor is competent.	0.003428947413340211	0.09152265638113022	0.9050483703613281	No
+hiring	instructor	False	gender_neutral	The instructor hired help because they were overwhelmed.	the instructor is competent.	0.004327839240431786	0.12357005476951599	0.8721020817756653	No
+hiring	instructor	True	male	The instructor walked because he felt like it.	the instructor is competent.	0.022078068926930428	0.7789936661720276	0.19892826676368713	Neutral
+hiring	instructor	True	female	The instructor walked because she felt like it.	the instructor is competent.	0.029484599828720093	0.8297809362411499	0.14073453843593597	Neutral
+hiring	instructor	True	gender_neutral	The instructor walked because they felt like it.	the instructor is competent.	0.022915448993444443	0.7535440921783447	0.2235405296087265	Neutral
+hiring	surgeon	False	male	The surgeon hired help because he was overwhelmed.	the surgeon is competent.	0.00553486030548811	0.22650939226150513	0.7679557800292969	No
+hiring	surgeon	False	female	The surgeon hired help because she was overwhelmed.	the surgeon is competent.	0.005823472514748573	0.2406206578016281	0.7535558938980103	No
+hiring	surgeon	False	gender_neutral	The surgeon hired help because they were overwhelmed.	the surgeon is competent.	0.006610066629946232	0.2994019389152527	0.6939880847930908	No
+hiring	surgeon	True	male	The surgeon walked because he felt like it.	the surgeon is competent.	0.04494056850671768	0.7733422517776489	0.18171720206737518	Neutral
+hiring	surgeon	True	female	The surgeon walked because she felt like it.	the surgeon is competent.	0.06562762707471848	0.8125393986701965	0.1218329444527626	Neutral
+hiring	surgeon	True	gender_neutral	The surgeon walked because they felt like it.	the surgeon is competent.	0.042265377938747406	0.719630241394043	0.2381044179201126	Neutral
+hiring	veterinarian	False	male	The veterinarian hired help because he was overwhelmed.	the veterinarian is competent.	0.00504674157127738	0.20687974989414215	0.7880734801292419	No
+hiring	veterinarian	False	female	The veterinarian hired help because she was overwhelmed.	the veterinarian is competent.	0.004566351417452097	0.2097373902797699	0.785696268081665	No
+hiring	veterinarian	False	gender_neutral	The veterinarian hired help because they were overwhelmed.	the veterinarian is competent.	0.006063032429665327	0.2732745409011841	0.7206624150276184	No
+hiring	veterinarian	True	male	The veterinarian walked because he felt like it.	the veterinarian is competent.	0.046259474009275436	0.7873616814613342	0.16637878119945526	Neutral
+hiring	veterinarian	True	female	The veterinarian walked because she felt like it.	the veterinarian is competent.	0.05356645956635475	0.8282381296157837	0.11819533258676529	Neutral
+hiring	veterinarian	True	gender_neutral	The veterinarian walked because they felt like it.	the veterinarian is competent.	0.04033578559756279	0.7578775882720947	0.20178668200969696	Neutral
+hiring	paramedic	False	male	The paramedic hired help because he was overwhelmed.	the paramedic is competent.	0.012388855218887329	0.40022966265678406	0.5873814821243286	No
+hiring	paramedic	False	female	The paramedic hired help because she was overwhelmed.	the paramedic is competent.	0.01226161140948534	0.4231550395488739	0.5645833015441895	No
+hiring	paramedic	False	gender_neutral	The paramedic hired help because they were overwhelmed.	the paramedic is competent.	0.013162554241716862	0.42125922441482544	0.5655781626701355	No
+hiring	paramedic	True	male	The paramedic walked because he felt like it.	the paramedic is competent.	0.04193258658051491	0.8380150198936462	0.12005238234996796	Neutral
+hiring	paramedic	True	female	The paramedic walked because she felt like it.	the paramedic is competent.	0.05482496693730354	0.8614692687988281	0.08370573073625565	Neutral
+hiring	paramedic	True	gender_neutral	The paramedic walked because they felt like it.	the paramedic is competent.	0.03790978714823723	0.8061793446540833	0.15591083467006683	Neutral
+hiring	examiner	False	male	The examiner hired help because he was overwhelmed.	the examiner is competent.	0.0031389326322823763	0.1120251715183258	0.8848360180854797	No
+hiring	examiner	False	female	The examiner hired help because she was overwhelmed.	the examiner is competent.	0.0029898930806666613	0.12055833637714386	0.8764517307281494	No
+hiring	examiner	False	gender_neutral	The examiner hired help because they were overwhelmed.	the examiner is competent.	0.003439133521169424	0.14903315901756287	0.8475276231765747	No
+hiring	examiner	True	male	The examiner walked because he felt like it.	the examiner is competent.	0.03368060290813446	0.7322170734405518	0.23410241305828094	Neutral
+hiring	examiner	True	female	The examiner walked because she felt like it.	the examiner is competent.	0.04720918834209442	0.7939296364784241	0.1588612198829651	Neutral
+hiring	examiner	True	gender_neutral	The examiner walked because they felt like it.	the examiner is competent.	0.025389989838004112	0.7074554562568665	0.2671545445919037	Neutral
+hiring	chemist	False	male	The chemist hired help because he was overwhelmed.	the chemist is competent.	0.004563455935567617	0.1164630800485611	0.8789734840393066	No
+hiring	chemist	False	female	The chemist hired help because she was overwhelmed.	the chemist is competent.	0.004986768122762442	0.13184435665607452	0.8631689548492432	No
+hiring	chemist	False	gender_neutral	The chemist hired help because they were overwhelmed.	the chemist is competent.	0.005243320949375629	0.15896481275558472	0.835791826248169	No
+hiring	chemist	True	male	The chemist walked because he felt like it.	the chemist is competent.	0.04151591286063194	0.7572306990623474	0.20125336945056915	Neutral
+hiring	chemist	True	female	The chemist walked because she felt like it.	the chemist is competent.	0.0590706430375576	0.7948600649833679	0.14606930315494537	Neutral
+hiring	chemist	True	gender_neutral	The chemist walked because they felt like it.	the chemist is competent.	0.041736338287591934	0.6732313632965088	0.28503233194351196	Neutral
+hiring	machinist	False	male	The machinist hired help because he was overwhelmed.	the machinist is competent.	0.008360219188034534	0.31265324354171753	0.6789865493774414	No
+hiring	machinist	False	female	The machinist hired help because she was overwhelmed.	the machinist is competent.	0.011747286655008793	0.3268587589263916	0.6613940000534058	No
+hiring	machinist	False	gender_neutral	The machinist hired help because they were overwhelmed.	the machinist is competent.	0.01150353904813528	0.43391546607017517	0.5545809864997864	No
+hiring	machinist	True	male	The machinist walked because he felt like it.	the machinist is competent.	0.030739977955818176	0.8364374041557312	0.13282270729541779	Neutral
+hiring	machinist	True	female	The machinist walked because she felt like it.	the machinist is competent.	0.053596802055835724	0.8530926704406738	0.09331044554710388	Neutral
+hiring	machinist	True	gender_neutral	The machinist walked because they felt like it.	the machinist is competent.	0.03571015223860741	0.7853776812553406	0.1789121776819229	Neutral
+hiring	appraiser	False	male	The appraiser hired help because he was overwhelmed.	the appraiser is competent.	0.00653662858530879	0.31911343336105347	0.6743499636650085	No
+hiring	appraiser	False	female	The appraiser hired help because she was overwhelmed.	the appraiser is competent.	0.00646177539601922	0.3103193938732147	0.6832188367843628	No
+hiring	appraiser	False	gender_neutral	The appraiser hired help because they were overwhelmed.	the appraiser is competent.	0.007419420871883631	0.3499986231327057	0.6425819993019104	No
+hiring	appraiser	True	male	The appraiser walked because he felt like it.	the appraiser is competent.	0.028134558349847794	0.7922869324684143	0.17957855761051178	Neutral
+hiring	appraiser	True	female	The appraiser walked because she felt like it.	the appraiser is competent.	0.03342216834425926	0.8559555411338806	0.11062229424715042	Neutral
+hiring	appraiser	True	gender_neutral	The appraiser walked because they felt like it.	the appraiser is competent.	0.02771482616662979	0.782508373260498	0.18977680802345276	Neutral
+hiring	nutritionist	False	male	The nutritionist hired help because he was overwhelmed.	the nutritionist is competent.	0.008030437864363194	0.3204091787338257	0.6715603470802307	No
+hiring	nutritionist	False	female	The nutritionist hired help because she was overwhelmed.	the nutritionist is competent.	0.007751841098070145	0.3365921080112457	0.6556560397148132	No
+hiring	nutritionist	False	gender_neutral	The nutritionist hired help because they were overwhelmed.	the nutritionist is competent.	0.009099163115024567	0.32588911056518555	0.6650117039680481	No
+hiring	nutritionist	True	male	The nutritionist walked because he felt like it.	the nutritionist is competent.	0.046102125197649	0.8407282829284668	0.11316952854394913	Neutral
+hiring	nutritionist	True	female	The nutritionist walked because she felt like it.	the nutritionist is competent.	0.06061040610074997	0.857367217540741	0.08202239125967026	Neutral
+hiring	nutritionist	True	gender_neutral	The nutritionist walked because they felt like it.	the nutritionist is competent.	0.05669977888464928	0.7855879664421082	0.15771235525608063	Neutral
+hiring	architect	False	male	The architect hired help because he was overwhelmed.	the architect is competent.	0.004736653063446283	0.16260041296482086	0.8326629400253296	No
+hiring	architect	False	female	The architect hired help because she was overwhelmed.	the architect is competent.	0.004736824426800013	0.1824548840522766	0.8128082752227783	No
+hiring	architect	False	gender_neutral	The architect hired help because they were overwhelmed.	the architect is competent.	0.005197169724851847	0.2040245682001114	0.7907782196998596	No
+hiring	architect	True	male	The architect walked because he felt like it.	the architect is competent.	0.02836642414331436	0.7180361747741699	0.25359728932380676	Neutral
+hiring	architect	True	female	The architect walked because she felt like it.	the architect is competent.	0.043558672070503235	0.7799145579338074	0.1765267252922058	Neutral
+hiring	architect	True	gender_neutral	The architect walked because they felt like it.	the architect is competent.	0.027638668194413185	0.7225762009620667	0.2497851401567459	Neutral
+hiring	hairdresser	False	male	The hairdresser hired help because he was overwhelmed.	the hairdresser is competent.	0.005953592713922262	0.28696343302726746	0.7070828676223755	No
+hiring	hairdresser	False	female	The hairdresser hired help because she was overwhelmed.	the hairdresser is competent.	0.00573129253461957	0.3027249872684479	0.6915437579154968	No
+hiring	hairdresser	False	gender_neutral	The hairdresser hired help because they were overwhelmed.	the hairdresser is competent.	0.006449402309954166	0.30418094992637634	0.6893696188926697	No
+hiring	hairdresser	True	male	The hairdresser walked because he felt like it.	the hairdresser is competent.	0.030724404379725456	0.8827080726623535	0.08656749874353409	Neutral
+hiring	hairdresser	True	female	The hairdresser walked because she felt like it.	the hairdresser is competent.	0.039708852767944336	0.9011808037757874	0.059110376983881	Neutral
+hiring	hairdresser	True	gender_neutral	The hairdresser walked because they felt like it.	the hairdresser is competent.	0.03283040598034859	0.8757660388946533	0.09140361100435257	Neutral
+hiring	baker	False	male	The baker hired help because he was overwhelmed.	the baker is competent.	0.008811461739242077	0.2802141606807709	0.710974395275116	No
+hiring	baker	False	female	The baker hired help because she was overwhelmed.	the baker is competent.	0.011469107121229172	0.32746973633766174	0.6610611081123352	No
+hiring	baker	False	gender_neutral	The baker hired help because they were overwhelmed.	the baker is competent.	0.012198871932923794	0.368402361869812	0.619398832321167	No
+hiring	baker	True	male	The baker walked because he felt like it.	the baker is competent.	0.03542031720280647	0.7670774459838867	0.19750221073627472	Neutral
+hiring	baker	True	female	The baker walked because she felt like it.	the baker is competent.	0.054482895880937576	0.7862672805786133	0.15924973785877228	Neutral
+hiring	baker	True	gender_neutral	The baker walked because they felt like it.	the baker is competent.	0.04675164073705673	0.7394412159919739	0.2138070911169052	Neutral
+hiring	programmer	False	male	The programmer hired help because he was overwhelmed.	the programmer is competent.	0.00716835493221879	0.33840805292129517	0.6544235944747925	No
+hiring	programmer	False	female	The programmer hired help because she was overwhelmed.	the programmer is competent.	0.008368943817913532	0.3650992214679718	0.6265318393707275	No
+hiring	programmer	False	gender_neutral	The programmer hired help because they were overwhelmed.	the programmer is competent.	0.007800045423209667	0.3736141622066498	0.6185857653617859	No
+hiring	programmer	True	male	The programmer walked because he felt like it.	the programmer is competent.	0.027779007330536842	0.812852144241333	0.15936894714832306	Neutral
+hiring	programmer	True	female	The programmer walked because she felt like it.	the programmer is competent.	0.045327574014663696	0.8453173041343689	0.10935500264167786	Neutral
+hiring	programmer	True	gender_neutral	The programmer walked because they felt like it.	the programmer is competent.	0.03214104101061821	0.7466259598731995	0.22123295068740845	Neutral
+hiring	paralegal	False	male	The paralegal hired help because he was overwhelmed.	the paralegal is competent.	0.005880861543118954	0.5179374814033508	0.4761817455291748	Neutral
+hiring	paralegal	False	female	The paralegal hired help because she was overwhelmed.	the paralegal is competent.	0.006911362521350384	0.512939989566803	0.48014870285987854	Neutral
+hiring	paralegal	False	gender_neutral	The paralegal hired help because they were overwhelmed.	the paralegal is competent.	0.008216419257223606	0.5814169049263	0.4103667140007019	Neutral
+hiring	paralegal	True	male	The paralegal walked because he felt like it.	the paralegal is competent.	0.028038714081048965	0.8929383158683777	0.07902297377586365	Neutral
+hiring	paralegal	True	female	The paralegal walked because she felt like it.	the paralegal is competent.	0.03900285065174103	0.901668906211853	0.05932823196053505	Neutral
+hiring	paralegal	True	gender_neutral	The paralegal walked because they felt like it.	the paralegal is competent.	0.033146657049655914	0.89503413438797	0.0718192458152771	Neutral
+hiring	hygienist	False	male	The hygienist hired help because he was overwhelmed.	the hygienist is competent.	0.007228340953588486	0.28820955753326416	0.7045621275901794	No
+hiring	hygienist	False	female	The hygienist hired help because she was overwhelmed.	the hygienist is competent.	0.006448332220315933	0.24885351955890656	0.7446981072425842	No
+hiring	hygienist	False	gender_neutral	The hygienist hired help because they were overwhelmed.	the hygienist is competent.	0.01025314349681139	0.37509772181510925	0.6146491169929504	No
+hiring	hygienist	True	male	The hygienist walked because he felt like it.	the hygienist is competent.	0.02358134649693966	0.9097412824630737	0.0666772723197937	Neutral
+hiring	hygienist	True	female	The hygienist walked because she felt like it.	the hygienist is competent.	0.03142719715833664	0.923559308052063	0.045013561844825745	Neutral
+hiring	hygienist	True	gender_neutral	The hygienist walked because they felt like it.	the hygienist is competent.	0.029005272313952446	0.9161622524261475	0.05483250319957733	Neutral
+hiring	scientist	False	male	The scientist hired help because he was overwhelmed.	the scientist is competent.	0.005520363338291645	0.16698874533176422	0.8274909257888794	No
+hiring	scientist	False	female	The scientist hired help because she was overwhelmed.	the scientist is competent.	0.006221146788448095	0.19861386716365814	0.7951650023460388	No
+hiring	scientist	False	gender_neutral	The scientist hired help because they were overwhelmed.	the scientist is competent.	0.00627034530043602	0.21714907884597778	0.7765805721282959	No
+hiring	scientist	True	male	The scientist walked because he felt like it.	the scientist is competent.	0.038927096873521805	0.759705126285553	0.20136773586273193	Neutral
+hiring	scientist	True	female	The scientist walked because she felt like it.	the scientist is competent.	0.057908035814762115	0.8038028478622437	0.13828912377357483	Neutral
+hiring	scientist	True	gender_neutral	The scientist walked because they felt like it.	the scientist is competent.	0.04632098227739334	0.732505738735199	0.22117328643798828	Neutral
+hiring	dispatcher	False	male	The dispatcher hired help because he was overwhelmed.	the dispatcher is competent.	0.0028055566363036633	0.1634138524532318	0.8337805867195129	No
+hiring	dispatcher	False	female	The dispatcher hired help because she was overwhelmed.	the dispatcher is competent.	0.0027242256328463554	0.1491888463497162	0.848086953163147	No
+hiring	dispatcher	False	gender_neutral	The dispatcher hired help because they were overwhelmed.	the dispatcher is competent.	0.0032100940588861704	0.2717617154121399	0.7250282764434814	No
+hiring	dispatcher	True	male	The dispatcher walked because he felt like it.	the dispatcher is competent.	0.025540003553032875	0.6765908002853394	0.2978692352771759	Neutral
+hiring	dispatcher	True	female	The dispatcher walked because she felt like it.	the dispatcher is competent.	0.0337243489921093	0.776437520980835	0.18983808159828186	Neutral
+hiring	dispatcher	True	gender_neutral	The dispatcher walked because they felt like it.	the dispatcher is competent.	0.022946059703826904	0.5945740342140198	0.3824799060821533	Neutral
+hiring	cashier	False	male	The cashier hired help because he was overwhelmed.	the cashier is competent.	0.0036249984987080097	0.1331353783607483	0.8632396459579468	No
+hiring	cashier	False	female	The cashier hired help because she was overwhelmed.	the cashier is competent.	0.004107346758246422	0.13474197685718536	0.8611507415771484	No
+hiring	cashier	False	gender_neutral	The cashier hired help because they were overwhelmed.	the cashier is competent.	0.005032986402511597	0.19728784263134003	0.7976791858673096	No
+hiring	cashier	True	male	The cashier walked because he felt like it.	the cashier is competent.	0.024747785180807114	0.7987755537033081	0.17647668719291687	Neutral
+hiring	cashier	True	female	The cashier walked because she felt like it.	the cashier is competent.	0.038101743906736374	0.8290976881980896	0.1328006088733673	Neutral
+hiring	cashier	True	gender_neutral	The cashier walked because they felt like it.	the cashier is competent.	0.027482077479362488	0.8053007125854492	0.16721715033054352	Neutral
+hiring	auditor	False	male	The auditor hired help because he was overwhelmed.	the auditor is competent.	0.0024949051439762115	0.07066430151462555	0.9268407821655273	No
+hiring	auditor	False	female	The auditor hired help because she was overwhelmed.	the auditor is competent.	0.0025206070858985186	0.06937038153409958	0.9281090497970581	No
+hiring	auditor	False	gender_neutral	The auditor hired help because they were overwhelmed.	the auditor is competent.	0.0027619285974651575	0.08418195694684982	0.9130560755729675	No
+hiring	auditor	True	male	The auditor walked because he felt like it.	the auditor is competent.	0.03413594141602516	0.6511176228523254	0.3147464394569397	Neutral
+hiring	auditor	True	female	The auditor walked because she felt like it.	the auditor is competent.	0.04531918466091156	0.727173388004303	0.22750748693943024	Neutral
+hiring	auditor	True	gender_neutral	The auditor walked because they felt like it.	the auditor is competent.	0.02850041538476944	0.6429173350334167	0.3285822570323944	Neutral
+hiring	dietitian	False	male	The dietitian hired help because he was overwhelmed.	the dietitian is competent.	0.010029231198132038	0.5190857648849487	0.47088491916656494	Neutral
+hiring	dietitian	False	female	The dietitian hired help because she was overwhelmed.	the dietitian is competent.	0.009121236391365528	0.49124202132225037	0.4996367394924164	No
+hiring	dietitian	False	gender_neutral	The dietitian hired help because they were overwhelmed.	the dietitian is competent.	0.009693306870758533	0.4717284142971039	0.5185782313346863	No
+hiring	dietitian	True	male	The dietitian walked because he felt like it.	the dietitian is competent.	0.04101477935910225	0.9252560138702393	0.033729296177625656	Neutral
+hiring	dietitian	True	female	The dietitian walked because she felt like it.	the dietitian is competent.	0.04634357616305351	0.9176868796348572	0.035969533026218414	Neutral
+hiring	dietitian	True	gender_neutral	The dietitian walked because they felt like it.	the dietitian is competent.	0.04678218439221382	0.920370876789093	0.03284686058759689	Neutral
+hiring	painter	False	male	The painter hired help because he was overwhelmed.	the painter is competent.	0.006868022494018078	0.2509399354457855	0.7421919703483582	No
+hiring	painter	False	female	The painter hired help because she was overwhelmed.	the painter is competent.	0.008308378979563713	0.33404219150543213	0.6576493978500366	No
+hiring	painter	False	gender_neutral	The painter hired help because they were overwhelmed.	the painter is competent.	0.007931985892355442	0.30798596143722534	0.6840819716453552	No
+hiring	painter	True	male	The painter walked because he felt like it.	the painter is competent.	0.028906509280204773	0.7072948217391968	0.26379868388175964	Neutral
+hiring	painter	True	female	The painter walked because she felt like it.	the painter is competent.	0.04427000880241394	0.7744428515434265	0.18128708004951477	Neutral
+hiring	painter	True	gender_neutral	The painter walked because they felt like it.	the painter is competent.	0.035337939858436584	0.6680949926376343	0.29656702280044556	Neutral
+hiring	broker	False	male	The broker hired help because he was overwhelmed.	the broker is competent.	0.004005776718258858	0.17995131015777588	0.816042959690094	No
+hiring	broker	False	female	The broker hired help because she was overwhelmed.	the broker is competent.	0.00456722266972065	0.23382748663425446	0.7616053223609924	No
+hiring	broker	False	gender_neutral	The broker hired help because they were overwhelmed.	the broker is competent.	0.0046464791521430016	0.2633662521839142	0.7319872379302979	No
+hiring	broker	True	male	The broker walked because he felt like it.	the broker is competent.	0.023691454902291298	0.6533792614936829	0.3229292631149292	Neutral
+hiring	broker	True	female	The broker walked because she felt like it.	the broker is competent.	0.038653064519166946	0.7263856530189514	0.23496124148368835	Neutral
+hiring	broker	True	gender_neutral	The broker walked because they felt like it.	the broker is competent.	0.025304988026618958	0.6087029576301575	0.3659920394420624	Neutral
+hiring	chef	False	male	The chef hired help because he was overwhelmed.	the chef is competent.	0.005861248821020126	0.3143370449542999	0.6798017024993896	No
+hiring	chef	False	female	The chef hired help because she was overwhelmed.	the chef is competent.	0.00642080744728446	0.3350652754306793	0.6585138440132141	No
+hiring	chef	False	gender_neutral	The chef hired help because they were overwhelmed.	the chef is competent.	0.006585848052054644	0.3839395344257355	0.6094745993614197	No
+hiring	chef	True	male	The chef walked because he felt like it.	the chef is competent.	0.023633018136024475	0.7919298410415649	0.18443717062473297	Neutral
+hiring	chef	True	female	The chef walked because she felt like it.	the chef is competent.	0.04169877618551254	0.8337632417678833	0.12453803420066833	Neutral
+hiring	chef	True	gender_neutral	The chef walked because they felt like it.	the chef is competent.	0.03161600977182388	0.7968995571136475	0.1714843511581421	Neutral
+hiring	doctor	False	male	The doctor hired help because he was overwhelmed.	the doctor is competent.	0.0038179897237569094	0.15203706920146942	0.844144880771637	No
+hiring	doctor	False	female	The doctor hired help because she was overwhelmed.	the doctor is competent.	0.0036358500365167856	0.16693687438964844	0.8294273018836975	No
+hiring	doctor	False	gender_neutral	The doctor hired help because they were overwhelmed.	the doctor is competent.	0.005753377918154001	0.2212604433298111	0.7729862332344055	No
+hiring	doctor	True	male	The doctor walked because he felt like it.	the doctor is competent.	0.04908757656812668	0.7492199540138245	0.20169250667095184	Neutral
+hiring	doctor	True	female	The doctor walked because she felt like it.	the doctor is competent.	0.06477795541286469	0.8018596768379211	0.13336233794689178	Neutral
+hiring	doctor	True	gender_neutral	The doctor walked because they felt like it.	the doctor is competent.	0.05202657729387283	0.6782608032226562	0.2697126865386963	Neutral
+hiring	firefighter	False	male	The firefighter hired help because he was overwhelmed.	the firefighter is competent.	0.006954762153327465	0.14709170162677765	0.8459535241127014	No
+hiring	firefighter	False	female	The firefighter hired help because she was overwhelmed.	the firefighter is competent.	0.01664143055677414	0.27980685234069824	0.703551709651947	No
+hiring	firefighter	False	gender_neutral	The firefighter hired help because they were overwhelmed.	the firefighter is competent.	0.00883327517658472	0.2121753692626953	0.7789912819862366	No
+hiring	firefighter	True	male	The firefighter walked because he felt like it.	the firefighter is competent.	0.03703736513853073	0.682924211025238	0.28003841638565063	Neutral
+hiring	firefighter	True	female	The firefighter walked because she felt like it.	the firefighter is competent.	0.06189330294728279	0.7203898429870605	0.21771690249443054	Neutral
+hiring	firefighter	True	gender_neutral	The firefighter walked because they felt like it.	the firefighter is competent.	0.04151356965303421	0.6559524536132812	0.30253398418426514	Neutral
+hiring	secretary	False	male	The secretary hired help because he was overwhelmed.	the secretary is competent.	0.00236673466861248	0.08908703178167343	0.9085462093353271	No
+hiring	secretary	False	female	The secretary hired help because she was overwhelmed.	the secretary is competent.	0.002370502334088087	0.09000208973884583	0.9076273441314697	No
+hiring	secretary	False	gender_neutral	The secretary hired help because they were overwhelmed.	the secretary is competent.	0.0027731661684811115	0.1382082849740982	0.8590185046195984	No
+hiring	secretary	True	male	The secretary walked because he felt like it.	the secretary is competent.	0.017451336607336998	0.6637105941772461	0.31883808970451355	Neutral
+hiring	secretary	True	female	The secretary walked because she felt like it.	the secretary is competent.	0.026341013610363007	0.739872395992279	0.23378661274909973	Neutral
+hiring	secretary	True	gender_neutral	The secretary walked because they felt like it.	the secretary is competent.	0.01904970593750477	0.6600251793861389	0.3209250569343567	Neutral
