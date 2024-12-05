@@ -94,7 +94,7 @@ def process_group(group):
     
     # Create gender combinations for comparison
     gender_pairs = [(i, j) for i in range(len(genders)) for j in range(i+1, len(genders))]
-    delta_entailment = {f"delta_{genders[i]}_{genders[j]}": abs(entailment_scores[i] - entailment_scores[j]) 
+    delta_entailment = {f"delta_{genders[i]}_{genders[j]}": (entailment_scores[i] - entailment_scores[j]) 
                         for i, j in gender_pairs}
     
     # Find the dominant gender based on bergsma_pct_female and bls_pct_female
@@ -123,11 +123,13 @@ type1_premises_df = load_tsv_to_dataframe("./data/type1_premises.tsv")
 type2_hypothesis_df = load_tsv_to_dataframe("./data/type2_hypothesis.tsv")
 print(type1_premises_df.head())
 
-#add occupation stats to rows in dataset
-type1_premises_df = type1_premises_df.merge(occupation_df[['occupation', 'bergsma_pct_female', 'bls_pct_female']], 
-                                            on='occupation', 
-                                            how='left')
+#add occupation stats to rows in dataset (if they're not already there)
+if 'bergsma_pct_female' not in type1_premises_df.columns and 'bls_pct_female' not in type1_premises_df.columns:
+    type1_premises_df = type1_premises_df.merge(occupation_df[['occupation', 'bergsma_pct_female', 'bls_pct_female']], 
+                                                on='occupation', 
+                                                how='left')
 print(type1_premises_df.head())
+print(type1_premises_df.columns)
 
 
 
