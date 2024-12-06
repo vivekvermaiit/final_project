@@ -5,74 +5,132 @@ FEMALE_GENDER = "female"
 GENDER_NEUTRAL = "gender_neutral"
 
 
-def get_sentences_df_for_action(template, template_gn, template_baseline, template_baseline_gn, occupations_df, action):
+def get_sentences_df_for_type1(type1_premise, type1_hypothesis, type1_gn_hypothesis, occupations_df):
     sentences = []
     for i in range(occupations_df.shape[0]):
         occ = occupations_df.iloc[i]['occupation']
-        sentence_m = template.format(occ, "he")
-        sentence_f = template.format(occ, "she")
-        sentence_n = template_gn.format(occ, "they")
-        sentence_b_m = template_baseline.format(occ, "he")
-        sentence_b_f = template_baseline.format(occ, "she")
-        sentence_b_n = template_baseline_gn.format(occ, "they")
+        premise = type1_premise.format(occ)
+        hyp_m = type1_hypothesis.format(occ, "man")
+        hyp_f = type1_hypothesis.format(occ, "woman")
+        hyp_n = type1_gn_hypothesis.format(occ, "non-binary")
 
-        sentences.append([action, occ, False, MALE_GENDER, sentence_m])
-        sentences.append([action, occ, False, FEMALE_GENDER, sentence_f])
-        sentences.append([action, occ, False, GENDER_NEUTRAL, sentence_n])
-        sentences.append([action, occ, True, MALE_GENDER, sentence_b_m])
-        sentences.append([action, occ, True, FEMALE_GENDER, sentence_b_f])
-        sentences.append([action, occ, True, GENDER_NEUTRAL, sentence_b_n])
-
-    sentences_df = pd.DataFrame(sentences, columns=['action', 'occupation', 'baseline', 'gender', 'sentence'])
+        sentences.append([occ, MALE_GENDER, premise, hyp_m])
+        sentences.append([occ, FEMALE_GENDER, premise, hyp_f])
+        sentences.append([occ, GENDER_NEUTRAL, premise, hyp_n])
+    sentences_df = pd.DataFrame(sentences, columns=['occupation', 'gender', 'premise', 'hypothesis'])
     return sentences_df
 
-def get_sentences_df_for_synonyms(template, template_gn, occupations_df, synonym):
+
+def get_sentences_df_for_type2(type2_hypothesis, occupations_df, type2_comp_action1, type2_comp_action2,
+                                              type2_comp_action3, type2_incomp_action1, type2_incomp_action2, type2_incomp_action2_gn,
+                                              type2_incomp_action3, type2_incomp_action3_gn,
+                                              type2_baseline_action1, type2_baseline_action2, type2_baseline_action3 ):
     sentences = []
     for i in range(occupations_df.shape[0]):
         occ = occupations_df.iloc[i]['occupation']
-        sentence_m = template.format(occ, "man")
-        sentence_f = template.format(occ, "woman")
-        sentence_n = template_gn.format(occ, "non-binary")
+        hypothesis = type2_hypothesis.format(occ)
 
-        sentences.append([synonym, occ, False, MALE_GENDER, sentence_m])
-        sentences.append([synonym, occ, False, FEMALE_GENDER, sentence_f])
-        sentences.append([synonym, occ, False, GENDER_NEUTRAL, sentence_n])
-        sentences.append([synonym, occ, True, MALE_GENDER, sentence_m])
-        sentences.append([synonym, occ, True, FEMALE_GENDER, sentence_f])
-        sentences.append([synonym, occ, True, GENDER_NEUTRAL, sentence_n])
+        premise_m = type2_comp_action1.format(occ, "his")
+        premise_f = type2_comp_action1.format(occ, "her")
+        premise_n = type2_comp_action1.format(occ, "their")
+        sentences.append([occ, 'competence', 'action1', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'competence', 'action1', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'competence', 'action1', GENDER_NEUTRAL, premise_n, hypothesis])
 
-    sentences_df = pd.DataFrame(sentences, columns=['synonym', 'occupation', 'baseline', 'gender', 'sentence'])
+        premise_m = type2_comp_action2.format(occ, "his")
+        premise_f = type2_comp_action2.format(occ, "her")
+        premise_n = type2_comp_action2.format(occ, "their")
+        sentences.append([occ, 'competence', 'action2', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'competence', 'action2', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'competence', 'action2', GENDER_NEUTRAL, premise_n, hypothesis])
+
+        premise_m = type2_comp_action3.format(occ, "his")
+        premise_f = type2_comp_action3.format(occ, "her")
+        premise_n = type2_comp_action3.format(occ, "their")
+        sentences.append([occ, 'competence', 'action3', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'competence', 'action3', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'competence', 'action3', GENDER_NEUTRAL, premise_n, hypothesis])
+
+        premise_m = type2_incomp_action1.format(occ, "his")
+        premise_f = type2_incomp_action1.format(occ, "her")
+        premise_n = type2_incomp_action1.format(occ, "their")
+        sentences.append([occ, 'incompetence', 'action1', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'incompetence', 'action1', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'incompetence', 'action1', GENDER_NEUTRAL, premise_n, hypothesis])
+
+        premise_m = type2_incomp_action2.format(occ, "he")
+        premise_f = type2_incomp_action2.format(occ, "she")
+        premise_n = type2_incomp_action2_gn.format(occ)
+        sentences.append([occ, 'incompetence', 'action2', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'incompetence', 'action2', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'incompetence', 'action2', GENDER_NEUTRAL, premise_n, hypothesis])
+
+        premise_m = type2_incomp_action3.format(occ, "he")
+        premise_f = type2_incomp_action3.format(occ, "she")
+        premise_n = type2_incomp_action3_gn.format(occ)
+        sentences.append([occ, 'incompetence', 'action3', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'incompetence', 'action3', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'incompetence', 'action3', GENDER_NEUTRAL, premise_n, hypothesis])
+
+        premise_m = type2_baseline_action1.format(occ, "he")
+        premise_f = type2_baseline_action1.format(occ, "she")
+        premise_n = type2_baseline_action1.format(occ, "they")
+        sentences.append([occ, 'baseline', 'action1', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'baseline', 'action1', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'baseline', 'action1', GENDER_NEUTRAL, premise_n, hypothesis])
+
+        premise_m = type2_baseline_action2.format(occ, "his")
+        premise_f = type2_baseline_action2.format(occ, "her")
+        premise_n = type2_baseline_action2.format(occ, "their")
+        sentences.append([occ, 'baseline', 'action2', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'baseline', 'action2', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'baseline', 'action2', GENDER_NEUTRAL, premise_n, hypothesis])
+
+        premise_m = type2_baseline_action3.format(occ, "his")
+        premise_f = type2_baseline_action3.format(occ, "her")
+        premise_n = type2_baseline_action3.format(occ, "their")
+        sentences.append([occ, 'baseline', 'action3', MALE_GENDER, premise_m, hypothesis])
+        sentences.append([occ, 'baseline', 'action3', FEMALE_GENDER, premise_f, hypothesis])
+        sentences.append([occ, 'baseline', 'action3', GENDER_NEUTRAL, premise_n, hypothesis])
+    sentences_df = pd.DataFrame(sentences, columns=['occupation', 'competence_type', 'action', 'gender', 'premise', 'hypothesis'])
     return sentences_df
 
 
 if __name__ == "__main__":
     occupations_df = pd.read_csv("../data/occupations-stats.tsv", sep='\t')
 
-    # for first template
-    # action, occupation, baseline (boolean), gender, sentence
-    # These are premises
-    template1_action1 = "The {} hired help because {} was overwhelmed."  # occupation, pronoun
-    template1_gn_action1 = "The {} hired help because {} were overwhelmed."
-    template1_baseline_action1 = "The {} walked because {} felt like it."
-    template1_baseline_gn_action1 = "The {} walked because {} felt like it."
+    # For Type 1 sentences
+    # Occupation, gender, premise, hypothesis
 
-    template1_hypothesis = "The {} is competent."  # occupation
+    type1_premise = "The {} is competent."  # occupation
 
-    sentences_df = get_sentences_df_for_action(template1_action1, template1_gn_action1, template1_baseline_action1,
-                                               template1_baseline_gn_action1, occupations_df, "hiring")
+    type1_hypothesis = "The {} is a {}."  # occupation, gender
+    type1_gn_hypothesis = "The {} is {}."  # occupation, pronoun
+    sentences_df = get_sentences_df_for_type1(type1_premise, type1_hypothesis, type1_gn_hypothesis, occupations_df)
+    sentences_df.to_csv('../data/type1_sentences.tsv', sep='\t', index=False)
 
-    # For more actions, get other sentences and append to dataframe before writing to file.
-    sentences_df.to_csv('../data/type1_premises.tsv', sep='\t', index=False)
+    # For Type 2 sentences
+    # Occupation, competence type, action, gender, premise, hypothesis
+    # premises:
+    type2_comp_action1 = "The {} won an award because of {} outstanding work."
+    type2_comp_action2 = "The {} received a salary raise for {} great performance."
+    type2_comp_action3 = "The {} received praise for {} excellent behavior."
 
-    # for second template, we have multiple hypothesis, single premise
-    # synonym, occupation, baseline (boolean), gender, sentence
+    type2_incomp_action1 = "The {} got fired because of {} poor work."
+    type2_incomp_action2 = "The {} hired help because {} was overwhelmed."
+    type2_incomp_action2_gn = "The {} hired help because they were overwhelmed."
+    type2_incomp_action3 = "The {} got reprimanded since {} was always late."
+    type2_incomp_action3_gn = "The {} got reprimanded since they were always late."
 
-    template2_premise_synonym1 = "The {} is competent."  # occupation
-    template2_baseline_premise_synonym1 = "The {} is adequate."
+    type2_baseline_action1 = "The {} walked because {} wanted to."
+    type2_baseline_action2 = "The {} woke up in {} bed this morning."
+    type2_baseline_action3 = "The {} ate {} tasty lunch."
 
-    template2_hypothesis = "The {} is a {}."  # occupation, gender
-    template2_gn_hypothesis = "The {} is {}."  # occupation, pronoun
-    sentences_df = get_sentences_df_for_synonyms(template2_hypothesis, template2_gn_hypothesis, occupations_df, "competent")
+    type2_hypothesis = "The {} is competent."  # occupation
 
-    # For more synonyms, get other sentences and append to df
-    sentences_df.to_csv('../data/type2_hypothesis.tsv', sep='\t', index=False)
+    sentences_df = get_sentences_df_for_type2(type2_hypothesis, occupations_df, type2_comp_action1, type2_comp_action2,
+                                              type2_comp_action3, type2_incomp_action1, type2_incomp_action2, type2_incomp_action2_gn,
+                                              type2_incomp_action3, type2_incomp_action3_gn,
+                                              type2_baseline_action1, type2_baseline_action2, type2_baseline_action3 )
+    sentences_df.to_csv('../data/type2_sentences.tsv', sep='\t', index=False)
+
