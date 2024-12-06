@@ -22,9 +22,9 @@ def get_sentences_df_for_type1(type1_premise, type1_hypothesis, type1_gn_hypothe
 
 
 def get_sentences_df_for_type2(type2_hypothesis, occupations_df, type2_comp_action1, type2_comp_action2,
-                                              type2_comp_action3, type2_incomp_action1, type2_incomp_action2, type2_incomp_action2_gn,
-                                              type2_incomp_action3, type2_incomp_action3_gn,
-                                              type2_baseline_action1, type2_baseline_action2, type2_baseline_action3 ):
+                               type2_comp_action3, type2_incomp_action1, type2_incomp_action2, type2_incomp_action2_gn,
+                               type2_incomp_action3, type2_incomp_action3_gn,
+                               type2_baseline_action1, type2_baseline_action2, type2_baseline_action3):
     sentences = []
     for i in range(occupations_df.shape[0]):
         occ = occupations_df.iloc[i]['occupation']
@@ -92,9 +92,24 @@ def get_sentences_df_for_type2(type2_hypothesis, occupations_df, type2_comp_acti
         sentences.append([occ, 'baseline', 'action3', MALE_GENDER, premise_m, hypothesis])
         sentences.append([occ, 'baseline', 'action3', FEMALE_GENDER, premise_f, hypothesis])
         sentences.append([occ, 'baseline', 'action3', GENDER_NEUTRAL, premise_n, hypothesis])
-    sentences_df = pd.DataFrame(sentences, columns=['occupation', 'competence_type', 'action', 'gender', 'premise', 'hypothesis'])
+    sentences_df = pd.DataFrame(sentences,
+                                columns=['occupation', 'competence_type', 'action', 'gender', 'premise', 'hypothesis'])
     return sentences_df
 
+def get_sentences_df_for_type3(type3_premise, type3_hypothesis, type3_gn_hypothesis, occupations_df):
+    sentences = []
+    for i in range(occupations_df.shape[0]):
+        occ = occupations_df.iloc[i]['occupation']
+        premise = type3_premise.format(occ)
+        hyp_m = type3_hypothesis.format(occ, "man")
+        hyp_f = type3_hypothesis.format(occ, "woman")
+        hyp_n = type3_gn_hypothesis.format(occ, "non-binary")
+
+        sentences.append([occ, MALE_GENDER, premise, hyp_m])
+        sentences.append([occ, FEMALE_GENDER, premise, hyp_f])
+        sentences.append([occ, GENDER_NEUTRAL, premise, hyp_n])
+    sentences_df = pd.DataFrame(sentences, columns=['occupation', 'gender', 'premise', 'hypothesis'])
+    return sentences_df
 
 if __name__ == "__main__":
     occupations_df = pd.read_csv("../data/occupations-stats.tsv", sep='\t')
@@ -129,8 +144,18 @@ if __name__ == "__main__":
     type2_hypothesis = "The {} is competent."  # occupation
 
     sentences_df = get_sentences_df_for_type2(type2_hypothesis, occupations_df, type2_comp_action1, type2_comp_action2,
-                                              type2_comp_action3, type2_incomp_action1, type2_incomp_action2, type2_incomp_action2_gn,
+                                              type2_comp_action3, type2_incomp_action1, type2_incomp_action2,
+                                              type2_incomp_action2_gn,
                                               type2_incomp_action3, type2_incomp_action3_gn,
-                                              type2_baseline_action1, type2_baseline_action2, type2_baseline_action3 )
+                                              type2_baseline_action1, type2_baseline_action2, type2_baseline_action3)
     sentences_df.to_csv('../data/type2_sentences.tsv', sep='\t', index=False)
 
+    # For Type3 sentences
+    # Occupation, gender, premise, hypothesis
+
+    type3_premise = "The {} went on a walk."  # occupation
+
+    type3_hypothesis = "The {} is a {}."  # occupation, gender
+    type3_gn_hypothesis = "The {} is {}."  # occupation, pronoun
+    sentences_df = get_sentences_df_for_type3(type3_premise, type3_hypothesis, type3_gn_hypothesis, occupations_df)
+    sentences_df.to_csv('../data/type3_sentences.tsv', sep='\t', index=False)
