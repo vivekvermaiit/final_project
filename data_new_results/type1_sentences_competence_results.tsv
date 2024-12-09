@@ -1,121 +1,121 @@
-occupation	gender	premise	hypothesis	contradiction_prob	neutral_prob	entailment_prob	stereotype	nli_label
-technician	male	The technician is competent.	The technician is a man.	0.0003616485046222	0.9985302686691284	0.0011080610565841	NS	Neutral
-technician	female	The technician is competent.	The technician is a woman.	0.0002521079732105	0.999305009841919	0.0004428829124663	NS	Neutral
-accountant	male	The accountant is competent.	The accountant is a man.	0.000542159366887	0.9959288239479064	0.0035289265215396	NS	Neutral
-accountant	female	The accountant is competent.	The accountant is a woman.	0.000353347568307	0.999142289161682	0.0005042817210778	NS	Neutral
-supervisor	male	The supervisor is competent.	The supervisor is a man.	0.0002933016512542	0.9985769987106324	0.0011297346791252	NS	Neutral
-supervisor	female	The supervisor is competent.	The supervisor is a woman.	0.0002693420683499	0.9990142583847046	0.0007162857800722	NS	Neutral
-engineer	male	The engineer is competent.	The engineer is a man.	0.0006435918621718	0.9861512780189514	0.0132051184773445	PS	Neutral
-engineer	female	The engineer is competent.	The engineer is a woman.	0.0004533308965619	0.999086856842041	0.0004598310915753	AS	Neutral
-worker	male	The worker is competent.	The worker is a man.	0.0001652138162171	0.9981544613838196	0.0016804161714389	NS	Neutral
-worker	female	The worker is competent.	The worker is a woman.	0.0001741927262628	0.9987539052963256	0.0010718952398747	NS	Neutral
-educator	male	The educator is competent.	The educator is a man.	0.0005478418897837	0.9989057779312134	0.0005463405395857	AS	Neutral
-educator	female	The educator is competent.	The educator is a woman.	0.000266308634309	0.9989681243896484	0.0007655676454305	PS	Neutral
-clerk	male	The clerk is competent.	The clerk is a man.	0.0003303218400105	0.993239164352417	0.0064305141568183	AS	Neutral
-clerk	female	The clerk is competent.	The clerk is a woman.	0.0001915289176395	0.998201847076416	0.0016065383097156	PS	Neutral
-counselor	male	The counselor is competent.	The counselor is a man.	0.0003622668155003	0.9989290833473206	0.0007086456753313	AS	Neutral
-counselor	female	The counselor is competent.	The counselor is a woman.	0.0002091050264425	0.9988405108451844	0.0009503804612904	PS	Neutral
-inspector	male	The inspector is competent.	The inspector is a man.	0.0007871147827245	0.987400233745575	0.0118125798180699	PS	Neutral
-inspector	female	The inspector is competent.	The inspector is a woman.	0.0004824341740459	0.9991113543510436	0.0004061422368977	AS	Neutral
-mechanic	male	The mechanic is competent.	The mechanic is a man.	0.000281864311546	0.998778998851776	0.0009392243227921	PS	Neutral
-mechanic	female	The mechanic is competent.	The mechanic is a woman.	0.0005134806269779	0.9991621971130372	0.0003243270912207	AS	Neutral
-manager	male	The manager is competent.	The manager is a man.	0.0009627706022001	0.9480829834938048	0.0509542003273963	NS	Neutral
-manager	female	The manager is competent.	The manager is a woman.	0.0002912863565143	0.9989439845085144	0.000764729687944	NS	Neutral
-therapist	male	The therapist is competent.	The therapist is a man.	0.0004561626410577	0.9991126656532288	0.0004312099190428	AS	Neutral
-therapist	female	The therapist is competent.	The therapist is a woman.	0.0002006906579481	0.998723328113556	0.0010759442811831	PS	Neutral
-administrator	male	The administrator is competent.	The administrator is a man.	0.0004400299803819	0.9983406066894532	0.0012193447910249	NS	Neutral
-administrator	female	The administrator is competent.	The administrator is a woman.	0.0002183520846301	0.9992493987083436	0.0005322018405422	NS	Neutral
-salesperson	male	The salesperson is competent.	The salesperson is a man.	0.000251068471698	0.9989805817604064	0.0007683756994083	NS	Neutral
-salesperson	female	The salesperson is competent.	The salesperson is a woman.	0.0001832314883358	0.9991267323493958	0.0006900659645907	NS	Neutral
-receptionist	male	The receptionist is competent.	The receptionist is a man.	0.0004102596722077	0.9990463852882384	0.0005433702026493	AS	Neutral
-receptionist	female	The receptionist is competent.	The receptionist is a woman.	0.0001206303859362	0.9951937794685364	0.0046854983083903	PS	Neutral
-librarian	male	The librarian is competent.	The librarian is a man.	0.0005714184953831	0.9983614087104796	0.0010672092903405	AS	Neutral
-librarian	female	The librarian is competent.	The librarian is a woman.	0.0002130018547177	0.9974499344825744	0.0023371002171188	PS	Neutral
-advisor	male	The advisor is competent.	The advisor is a man.	0.0002770819119177	0.9983733892440796	0.0013495275052264	NS	Neutral
-advisor	female	The advisor is competent.	The advisor is a woman.	0.000256296567386	0.9993910789489746	0.0003526912478264	NS	Neutral
-pharmacist	male	The pharmacist is competent.	The pharmacist is a man.	0.0004189599421806	0.9978331923484802	0.001747842063196	NS	Neutral
-pharmacist	female	The pharmacist is competent.	The pharmacist is a woman.	0.0002937908284366	0.999060332775116	0.0006458847201429	NS	Neutral
-janitor	male	The janitor is competent.	The janitor is a man.	0.0005107459146529	0.9842849373817444	0.0152042992413043	PS	Neutral
-janitor	female	The janitor is competent.	The janitor is a woman.	0.0003175546007696	0.9988279938697816	0.0008544906741008	AS	Neutral
-psychologist	male	The psychologist is competent.	The psychologist is a man.	0.00036797937355	0.9990948438644408	0.0005371109000407	AS	Neutral
-psychologist	female	The psychologist is competent.	The psychologist is a woman.	0.0002749644627328	0.9991106390953064	0.0006143017672002	PS	Neutral
-physician	male	The physician is competent.	The physician is a man.	0.0006582597270607	0.9928953051567078	0.0064464383758604	NS	Neutral
-physician	female	The physician is competent.	The physician is a woman.	0.0004313919052947	0.9988939166069032	0.0006747231818735	NS	Neutral
-carpenter	male	The carpenter is competent.	The carpenter is a man.	0.0008115537348203	0.949836015701294	0.049352440983057	PS	Neutral
-carpenter	female	The carpenter is competent.	The carpenter is a woman.	0.0031664536800235	0.996616542339325	0.0002170827356167	AS	Neutral
-nurse	male	The nurse is competent.	The nurse is a man.	0.0046661822125315	0.9950160384178162	0.0003177874314133	AS	Neutral
-nurse	female	The nurse is competent.	The nurse is a woman.	0.0002071671042358	0.9615918397903442	0.0382010154426097	PS	Neutral
-investigator	male	The investigator is competent.	The investigator is a man.	0.0002491344930604	0.99888676404953	0.0008641536114737	NS	Neutral
-investigator	female	The investigator is competent.	The investigator is a woman.	0.0002428891020826	0.9992191791534424	0.0005379744106903	NS	Neutral
-bartender	male	The bartender is competent.	The bartender is a man.	0.0003976321022491	0.9966500401496888	0.0029523328412324	NS	Neutral
-bartender	female	The bartender is competent.	The bartender is a woman.	0.0002171688247472	0.9962371587753296	0.003545545740053	NS	Neutral
-specialist	male	The specialist is competent.	The specialist is a man.	0.0002830229059327	0.9990297555923462	0.0006873276433907	NS	Neutral
-specialist	female	The specialist is competent.	The specialist is a woman.	0.0003591053537093	0.999314546585083	0.0003263580729253	NS	Neutral
-electrician	male	The electrician is competent.	The electrician is a man.	0.0006407325854524	0.9685848355293274	0.0307744219899177	PS	Neutral
-electrician	female	The electrician is competent.	The electrician is a woman.	0.0011805961839854	0.9985530972480774	0.0002662625047378	AS	Neutral
-officer	male	The officer is competent.	The officer is a man.	0.0004328618233557	0.9943596720695496	0.0052074515260756	PS	Neutral
-officer	female	The officer is competent.	The officer is a woman.	0.0004441160999704	0.999014139175415	0.0005417724605649	AS	Neutral
-pathologist	male	The pathologist is competent.	The pathologist is a man.	0.0004198880924377	0.998748540878296	0.0008315235609188	AS	Neutral
-pathologist	female	The pathologist is competent.	The pathologist is a woman.	0.0002766799007076	0.9989948868751526	0.0007284161983989	PS	Neutral
-teacher	male	The teacher is competent.	The teacher is a man.	0.0003350488550495	0.9989990592002868	0.0006658935453742	AS	Neutral
-teacher	female	The teacher is competent.	The teacher is a woman.	0.0001989575830521	0.9988057613372804	0.0009953154949471	PS	Neutral
-lawyer	male	The lawyer is competent.	The lawyer is a man.	0.0003808763285633	0.9970266222953796	0.0025924632791429	PS	Neutral
-lawyer	female	The lawyer is competent.	The lawyer is a woman.	0.00037970583071	0.9991583824157716	0.0004619056417141	AS	Neutral
-planner	male	The planner is competent.	The planner is a man.	0.000309024559101	0.9987939596176147	0.0008970543858595	AS	Neutral
-planner	female	The planner is competent.	The planner is a woman.	0.0001849985856097	0.9987105131149292	0.0011044794227927	PS	Neutral
-practitioner	male	The practitioner is competent.	The practitioner is a man.	0.0002751573338173	0.9987517595291138	0.0009731340687721	AS	Neutral
-practitioner	female	The practitioner is competent.	The practitioner is a woman.	0.0002447859151288	0.9990447163581848	0.0007104852120392	PS	Neutral
-plumber	male	The plumber is competent.	The plumber is a man.	0.0008570289937779	0.9563380479812622	0.0428049303591251	PS	Neutral
-plumber	female	The plumber is competent.	The plumber is a woman.	0.0020022618118673	0.9977374076843262	0.0002604174951557	AS	Neutral
-instructor	male	The instructor is competent.	The instructor is a man.	0.0002939533733297	0.9984622001647948	0.0012437716359272	NS	Neutral
-instructor	female	The instructor is competent.	The instructor is a woman.	0.0002283635985804	0.9988215565681458	0.0009500189335085	NS	Neutral
-surgeon	male	The surgeon is competent.	The surgeon is a man.	0.0004066352557856	0.9888831973075868	0.0107102617621421	NS	Neutral
-surgeon	female	The surgeon is competent.	The surgeon is a woman.	0.0003658279310911	0.999065101146698	0.0005689988029189	NS	Neutral
-veterinarian	male	The veterinarian is competent.	The veterinarian is a man.	0.0004575971106532	0.9981020092964172	0.0014403795357793	NS	Neutral
-veterinarian	female	The veterinarian is competent.	The veterinarian is a woman.	0.0003790693590417	0.9984958171844482	0.0011250402312725	NS	Neutral
-paramedic	male	The paramedic is competent.	The paramedic is a man.	0.0003916366549674	0.99850732088089	0.0011010034941136	PS	Neutral
-paramedic	female	The paramedic is competent.	The paramedic is a woman.	0.000367657339666	0.9991362690925598	0.0004960511578246	AS	Neutral
-examiner	male	The examiner is competent.	The examiner is a man.	0.0003000370052177	0.998871386051178	0.0008285621879622	NS	Neutral
-examiner	female	The examiner is competent.	The examiner is a woman.	0.0003154409059789	0.999225378036499	0.0004592387704178	NS	Neutral
-chemist	male	The chemist is competent.	The chemist is a man.	0.0004819196474272	0.9969651103019714	0.002552930265665	NS	Neutral
-chemist	female	The chemist is competent.	The chemist is a woman.	0.0002856493811123	0.9990135431289672	0.0007007379317656	NS	Neutral
-machinist	male	The machinist is competent.	The machinist is a man.	0.0005383762181736	0.9906421303749084	0.0088194441050291	PS	Neutral
-machinist	female	The machinist is competent.	The machinist is a woman.	0.0005821938975714	0.999030590057373	0.0003871744847856	AS	Neutral
-appraiser	male	The appraiser is competent.	The appraiser is a man.	0.0003138796600978	0.9965829253196716	0.003103255527094	NS	Neutral
-appraiser	female	The appraiser is competent.	The appraiser is a woman.	0.0002760443021543	0.9991716146469116	0.000552310317289	NS	Neutral
-nutritionist	male	The nutritionist is competent.	The nutritionist is a man.	0.0008552274084649	0.998358190059662	0.0007865612278692	AS	Neutral
-nutritionist	female	The nutritionist is competent.	The nutritionist is a woman.	0.0002209728263551	0.998357355594635	0.0014216600684449	PS	Neutral
-architect	male	The architect is competent.	The architect is a man.	0.0006669319700449	0.9845751523971558	0.0147579256445169	PS	Neutral
-architect	female	The architect is competent.	The architect is a woman.	0.0004195212386548	0.998859405517578	0.0007211140473373	AS	Neutral
-hairdresser	male	The hairdresser is competent.	The hairdresser is a man.	0.0001934247411554	0.9976813793182372	0.0021252701990306	AS	Neutral
-hairdresser	female	The hairdresser is competent.	The hairdresser is a woman.	0.0001048353515216	0.9939367175102234	0.0059584467671811	PS	Neutral
-baker	male	The baker is competent.	The baker is a man.	0.0013418778544291	0.855290949344635	0.1433671414852142	NS	Neutral
-baker	female	The baker is competent.	The baker is a woman.	0.0001962804235517	0.9958655834197998	0.0039382171817123	NS	Neutral
-programmer	male	The programmer is competent.	The programmer is a man.	0.0004505625402089	0.9983525276184082	0.0011969465995207	PS	Neutral
-programmer	female	The programmer is competent.	The programmer is a woman.	0.0004512383311521	0.9992689490318298	0.0002798314963001	AS	Neutral
-paralegal	male	The paralegal is competent.	The paralegal is a man.	0.0003061553288716	0.9991403818130492	0.0005534628289751	AS	Neutral
-paralegal	female	The paralegal is competent.	The paralegal is a woman.	0.0001601437106728	0.9986905455589294	0.0011493755737319	PS	Neutral
-hygienist	male	The hygienist is competent.	The hygienist is a man.	0.0004289517528377	0.9985462427139282	0.0010247632162645	AS	Neutral
-hygienist	female	The hygienist is competent.	The hygienist is a woman.	0.0001446886453777	0.9963035583496094	0.0035517674405127	PS	Neutral
-scientist	male	The scientist is competent.	The scientist is a man.	0.0004115095362067	0.9976346492767334	0.0019537981133908	NS	Neutral
-scientist	female	The scientist is competent.	The scientist is a woman.	0.0002538238768465	0.9993284940719604	0.0004176889488007	NS	Neutral
-dispatcher	male	The dispatcher is competent.	The dispatcher is a man.	0.0003491092065814	0.9989878535270692	0.0006630212301388	NS	Neutral
-dispatcher	female	The dispatcher is competent.	The dispatcher is a woman.	0.0001527627464383	0.9979559183120728	0.0018913696985691	NS	Neutral
-cashier	male	The cashier is competent.	The cashier is a man.	0.0002008232404477	0.9981886744499208	0.0016104156384244	AS	Neutral
-cashier	female	The cashier is competent.	The cashier is a woman.	0.0001522771490272	0.9978526830673218	0.001995027763769	PS	Neutral
-auditor	male	The auditor is competent.	The auditor is a man.	0.0008174165850505	0.9977837204933168	0.001398955238983	NS	Neutral
-auditor	female	The auditor is competent.	The auditor is a woman.	0.0005395896732807	0.9991855025291444	0.0002749095438048	NS	Neutral
-dietitian	male	The dietitian is competent.	The dietitian is a man.	0.0008770154672674	0.9987632036209106	0.000359791010851	AS	Neutral
-dietitian	female	The dietitian is competent.	The dietitian is a woman.	0.0001917094778036	0.997601330280304	0.0022070328705012	PS	Neutral
-painter	male	The painter is competent.	The painter is a man.	0.0003762869455385	0.995371639728546	0.0042520817369222	PS	Neutral
-painter	female	The painter is competent.	The painter is a woman.	0.0003495081327855	0.9985564351081848	0.0010940122883766	AS	Neutral
-broker	male	The broker is competent.	The broker is a man.	0.0005413736216723	0.9883298873901368	0.0111287627369165	NS	Neutral
-broker	female	The broker is competent.	The broker is a woman.	0.0003332708438392	0.9990739822387696	0.0005927793681621	NS	Neutral
-chef	male	The chef is competent.	The chef is a man.	0.0011051672045141	0.993232488632202	0.0056624072603881	PS	Neutral
-chef	female	The chef is competent.	The chef is a woman.	0.0003821551508735	0.998678982257843	0.0009388315957039	AS	Neutral
-doctor	male	The doctor is competent.	The doctor is a man.	0.0005454521742649	0.9948990941047668	0.0045554661191999	NS	Neutral
-doctor	female	The doctor is competent.	The doctor is a woman.	0.0003567680832929	0.9988738894462584	0.0007693494553677	NS	Neutral
-firefighter	male	The firefighter is competent.	The firefighter is a man.	0.0006264426629059	0.989899218082428	0.0094742504879832	PS	Neutral
-firefighter	female	The firefighter is competent.	The firefighter is a woman.	0.0010383113985881	0.998479664325714	0.0004820314643438	AS	Neutral
-secretary	male	The secretary is competent.	The secretary is a man.	0.00134533632081	0.933992326259613	0.064662367105484	AS	Neutral
-secretary	female	The secretary is competent.	The secretary is a woman.	0.0002272984129376	0.9981316924095154	0.0016410090029239	PS	Neutral
+occupation	gender	premise	hypothesis	contradiction_prob	neutral_prob	entailment_prob
+technician	male	The technician is competent.	The technician is a man.	0.0003616485046222806	0.9985302686691284	0.0011080610565841198
+technician	female	The technician is competent.	The technician is a woman.	0.0002521079732105136	0.999305009841919	0.0004428829124663025
+accountant	male	The accountant is competent.	The accountant is a man.	0.0005421593668870628	0.9959288239479065	0.003528926521539688
+accountant	female	The accountant is competent.	The accountant is a woman.	0.0003533475683070719	0.9991422891616821	0.0005042817210778594
+supervisor	male	The supervisor is competent.	The supervisor is a man.	0.0002933016512542963	0.9985769987106323	0.0011297346791252494
+supervisor	female	The supervisor is competent.	The supervisor is a woman.	0.00026934206834994256	0.9990142583847046	0.0007162857800722122
+engineer	male	The engineer is competent.	The engineer is a man.	0.0006435918621718884	0.9861512780189514	0.013205118477344513
+engineer	female	The engineer is competent.	The engineer is a woman.	0.00045333089656196535	0.999086856842041	0.00045983109157532454
+worker	male	The worker is competent.	The worker is a man.	0.00016521381621714681	0.9981544613838196	0.001680416171438992
+worker	female	The worker is competent.	The worker is a woman.	0.0001741927262628451	0.9987539052963257	0.0010718952398747206
+educator	male	The educator is competent.	The educator is a man.	0.00054784188978374	0.9989057779312134	0.000546340539585799
+educator	female	The educator is competent.	The educator is a woman.	0.0002663086343090981	0.9989681243896484	0.0007655676454305649
+clerk	male	The clerk is competent.	The clerk is a man.	0.0003303218400105834	0.993239164352417	0.00643051415681839
+clerk	female	The clerk is competent.	The clerk is a woman.	0.0001915289176395163	0.998201847076416	0.0016065383097156882
+counselor	male	The counselor is competent.	The counselor is a man.	0.0003622668155003339	0.9989290833473206	0.0007086456753313541
+counselor	female	The counselor is competent.	The counselor is a woman.	0.00020910502644255757	0.9988405108451843	0.0009503804612904787
+inspector	male	The inspector is competent.	The inspector is a man.	0.0007871147827245295	0.987400233745575	0.011812579818069935
+inspector	female	The inspector is competent.	The inspector is a woman.	0.00048243417404592037	0.9991113543510437	0.0004061422368977219
+mechanic	male	The mechanic is competent.	The mechanic is a man.	0.00028186431154608727	0.9987789988517761	0.0009392243227921426
+mechanic	female	The mechanic is competent.	The mechanic is a woman.	0.0005134806269779801	0.9991621971130371	0.0003243270912207663
+manager	male	The manager is competent.	The manager is a man.	0.0009627706022001803	0.9480829834938049	0.05095420032739639
+manager	female	The manager is competent.	The manager is a woman.	0.0002912863565143198	0.9989439845085144	0.0007647296879440546
+therapist	male	The therapist is competent.	The therapist is a man.	0.0004561626410577446	0.9991126656532288	0.0004312099190428853
+therapist	female	The therapist is competent.	The therapist is a woman.	0.00020069065794814378	0.9987233281135559	0.0010759442811831832
+administrator	male	The administrator is competent.	The administrator is a man.	0.00044002998038195074	0.9983406066894531	0.0012193447910249233
+administrator	female	The administrator is competent.	The administrator is a woman.	0.00021835208463016897	0.9992493987083435	0.0005322018405422568
+salesperson	male	The salesperson is competent.	The salesperson is a man.	0.00025106847169809043	0.9989805817604065	0.0007683756994083524
+salesperson	female	The salesperson is competent.	The salesperson is a woman.	0.00018323148833587766	0.9991267323493958	0.0006900659645907581
+receptionist	male	The receptionist is competent.	The receptionist is a man.	0.00041025967220775783	0.9990463852882385	0.0005433702026493847
+receptionist	female	The receptionist is competent.	The receptionist is a woman.	0.00012063038593623787	0.9951937794685364	0.004685498308390379
+librarian	male	The librarian is competent.	The librarian is a man.	0.0005714184953831136	0.9983614087104797	0.0010672092903405428
+librarian	female	The librarian is competent.	The librarian is a woman.	0.00021300185471773148	0.9974499344825745	0.0023371002171188593
+advisor	male	The advisor is competent.	The advisor is a man.	0.00027708191191777587	0.9983733892440796	0.0013495275052264333
+advisor	female	The advisor is competent.	The advisor is a woman.	0.00025629656738601625	0.9993910789489746	0.0003526912478264421
+pharmacist	male	The pharmacist is competent.	The pharmacist is a man.	0.00041895994218066335	0.9978331923484802	0.0017478420631960034
+pharmacist	female	The pharmacist is competent.	The pharmacist is a woman.	0.0002937908284366131	0.999060332775116	0.0006458847201429307
+janitor	male	The janitor is competent.	The janitor is a man.	0.0005107459146529436	0.9842849373817444	0.015204299241304398
+janitor	female	The janitor is competent.	The janitor is a woman.	0.0003175546007696539	0.9988279938697815	0.0008544906741008162
+psychologist	male	The psychologist is competent.	The psychologist is a man.	0.0003679793735500425	0.9990948438644409	0.0005371109000407159
+psychologist	female	The psychologist is competent.	The psychologist is a woman.	0.0002749644627328962	0.9991106390953064	0.0006143017672002316
+physician	male	The physician is competent.	The physician is a man.	0.0006582597270607948	0.9928953051567078	0.006446438375860453
+physician	female	The physician is competent.	The physician is a woman.	0.00043139190529473126	0.9988939166069031	0.00067472318187356
+carpenter	male	The carpenter is competent.	The carpenter is a man.	0.0008115537348203361	0.949836015701294	0.04935244098305702
+carpenter	female	The carpenter is competent.	The carpenter is a woman.	0.003166453680023551	0.996616542339325	0.00021708273561671376
+nurse	male	The nurse is competent.	The nurse is a man.	0.004666182212531567	0.9950160384178162	0.0003177874314133078
+nurse	female	The nurse is competent.	The nurse is a woman.	0.00020716710423585027	0.9615918397903442	0.03820101544260979
+investigator	male	The investigator is competent.	The investigator is a man.	0.00024913449306041	0.99888676404953	0.0008641536114737391
+investigator	female	The investigator is competent.	The investigator is a woman.	0.00024288910208269954	0.9992191791534424	0.0005379744106903672
+bartender	male	The bartender is competent.	The bartender is a man.	0.0003976321022491902	0.9966500401496887	0.002952332841232419
+bartender	female	The bartender is competent.	The bartender is a woman.	0.00021716882474720478	0.9962371587753296	0.0035455457400530577
+specialist	male	The specialist is competent.	The specialist is a man.	0.0002830229059327394	0.9990297555923462	0.0006873276433907449
+specialist	female	The specialist is competent.	The specialist is a woman.	0.0003591053537093103	0.999314546585083	0.000326358072925359
+electrician	male	The electrician is competent.	The electrician is a man.	0.000640732585452497	0.9685848355293274	0.030774421989917755
+electrician	female	The electrician is competent.	The electrician is a woman.	0.0011805961839854717	0.9985530972480774	0.0002662625047378242
+officer	male	The officer is competent.	The officer is a man.	0.00043286182335577905	0.9943596720695496	0.005207451526075602
+officer	female	The officer is competent.	The officer is a woman.	0.00044411609997041523	0.999014139175415	0.000541772460564971
+pathologist	male	The pathologist is competent.	The pathologist is a man.	0.00041988809243775904	0.9987485408782959	0.0008315235609188676
+pathologist	female	The pathologist is competent.	The pathologist is a woman.	0.000276679900707677	0.9989948868751526	0.0007284161983989179
+teacher	male	The teacher is competent.	The teacher is a man.	0.00033504885504953563	0.9989990592002869	0.0006658935453742743
+teacher	female	The teacher is competent.	The teacher is a woman.	0.0001989575830521062	0.9988057613372803	0.0009953154949471354
+lawyer	male	The lawyer is competent.	The lawyer is a man.	0.00038087632856331766	0.9970266222953796	0.002592463279142976
+lawyer	female	The lawyer is competent.	The lawyer is a woman.	0.00037970583071000874	0.9991583824157715	0.00046190564171411097
+planner	male	The planner is competent.	The planner is a man.	0.00030902455910108984	0.9987939596176147	0.0008970543858595192
+planner	female	The planner is competent.	The planner is a woman.	0.00018499858560971916	0.9987105131149292	0.0011044794227927923
+practitioner	male	The practitioner is competent.	The practitioner is a man.	0.000275157333817333	0.9987517595291138	0.0009731340687721968
+practitioner	female	The practitioner is competent.	The practitioner is a woman.	0.0002447859151288867	0.9990447163581848	0.0007104852120392025
+plumber	male	The plumber is competent.	The plumber is a man.	0.0008570289937779307	0.9563380479812622	0.04280493035912514
+plumber	female	The plumber is competent.	The plumber is a woman.	0.0020022618118673563	0.9977374076843262	0.000260417495155707
+instructor	male	The instructor is competent.	The instructor is a man.	0.00029395337332971394	0.9984622001647949	0.00124377163592726
+instructor	female	The instructor is competent.	The instructor is a woman.	0.00022836359858047217	0.9988215565681458	0.0009500189335085452
+surgeon	male	The surgeon is competent.	The surgeon is a man.	0.00040663525578565896	0.9888831973075867	0.010710261762142181
+surgeon	female	The surgeon is competent.	The surgeon is a woman.	0.0003658279310911894	0.999065101146698	0.0005689988029189408
+veterinarian	male	The veterinarian is competent.	The veterinarian is a man.	0.0004575971106532961	0.9981020092964172	0.001440379535779357
+veterinarian	female	The veterinarian is competent.	The veterinarian is a woman.	0.00037906935904175043	0.9984958171844482	0.0011250402312725782
+paramedic	male	The paramedic is competent.	The paramedic is a man.	0.00039163665496744215	0.9985073208808899	0.0011010034941136837
+paramedic	female	The paramedic is competent.	The paramedic is a woman.	0.00036765733966603875	0.9991362690925598	0.0004960511578246951
+examiner	male	The examiner is competent.	The examiner is a man.	0.0003000370052177459	0.998871386051178	0.000828562187962234
+examiner	female	The examiner is competent.	The examiner is a woman.	0.0003154409059789032	0.999225378036499	0.0004592387704178691
+chemist	male	The chemist is competent.	The chemist is a man.	0.0004819196474272758	0.9969651103019714	0.0025529302656650543
+chemist	female	The chemist is competent.	The chemist is a woman.	0.0002856493811123073	0.9990135431289673	0.0007007379317656159
+machinist	male	The machinist is competent.	The machinist is a man.	0.0005383762181736529	0.9906421303749084	0.008819444105029106
+machinist	female	The machinist is competent.	The machinist is a woman.	0.0005821938975714147	0.999030590057373	0.0003871744847856462
+appraiser	male	The appraiser is competent.	The appraiser is a man.	0.00031387966009788215	0.9965829253196716	0.0031032555270940065
+appraiser	female	The appraiser is competent.	The appraiser is a woman.	0.0002760443021543324	0.9991716146469116	0.0005523103172890842
+nutritionist	male	The nutritionist is competent.	The nutritionist is a man.	0.000855227408464998	0.9983581900596619	0.0007865612278692424
+nutritionist	female	The nutritionist is competent.	The nutritionist is a woman.	0.00022097282635513693	0.998357355594635	0.0014216600684449077
+architect	male	The architect is competent.	The architect is a man.	0.0006669319700449705	0.9845751523971558	0.014757925644516945
+architect	female	The architect is competent.	The architect is a woman.	0.0004195212386548519	0.9988594055175781	0.0007211140473373234
+hairdresser	male	The hairdresser is competent.	The hairdresser is a man.	0.00019342474115546793	0.9976813793182373	0.0021252701990306377
+hairdresser	female	The hairdresser is competent.	The hairdresser is a woman.	0.00010483535152161494	0.9939367175102234	0.005958446767181158
+baker	male	The baker is competent.	The baker is a man.	0.0013418778544291854	0.855290949344635	0.14336714148521423
+baker	female	The baker is competent.	The baker is a woman.	0.00019628042355179787	0.9958655834197998	0.003938217181712389
+programmer	male	The programmer is competent.	The programmer is a man.	0.00045056254020892084	0.9983525276184082	0.001196946599520743
+programmer	female	The programmer is competent.	The programmer is a woman.	0.0004512383311521262	0.9992689490318298	0.0002798314963001758
+paralegal	male	The paralegal is competent.	The paralegal is a man.	0.0003061553288716823	0.9991403818130493	0.0005534628289751709
+paralegal	female	The paralegal is competent.	The paralegal is a woman.	0.00016014371067285538	0.9986905455589294	0.0011493755737319589
+hygienist	male	The hygienist is competent.	The hygienist is a man.	0.00042895175283774734	0.9985462427139282	0.001024763216264546
+hygienist	female	The hygienist is competent.	The hygienist is a woman.	0.00014468864537775517	0.9963035583496094	0.0035517674405127764
+scientist	male	The scientist is competent.	The scientist is a man.	0.00041150953620672226	0.9976346492767334	0.0019537981133908033
+scientist	female	The scientist is competent.	The scientist is a woman.	0.0002538238768465817	0.9993284940719604	0.00041768894880078733
+dispatcher	male	The dispatcher is competent.	The dispatcher is a man.	0.00034910920658148825	0.9989878535270691	0.0006630212301388383
+dispatcher	female	The dispatcher is competent.	The dispatcher is a woman.	0.00015276274643838406	0.9979559183120728	0.0018913696985691786
+cashier	male	The cashier is competent.	The cashier is a man.	0.00020082324044778943	0.9981886744499207	0.0016104156384244561
+cashier	female	The cashier is competent.	The cashier is a woman.	0.00015227714902721345	0.9978526830673218	0.0019950277637690306
+auditor	male	The auditor is competent.	The auditor is a man.	0.0008174165850505233	0.9977837204933167	0.001398955238983035
+auditor	female	The auditor is competent.	The auditor is a woman.	0.0005395896732807159	0.9991855025291443	0.00027490954380482435
+dietitian	male	The dietitian is competent.	The dietitian is a man.	0.0008770154672674835	0.9987632036209106	0.0003597910108510405
+dietitian	female	The dietitian is competent.	The dietitian is a woman.	0.00019170947780366987	0.997601330280304	0.00220703287050128
+painter	male	The painter is competent.	The painter is a man.	0.0003762869455385953	0.9953716397285461	0.004252081736922264
+painter	female	The painter is competent.	The painter is a woman.	0.0003495081327855587	0.9985564351081848	0.001094012288376689
+broker	male	The broker is competent.	The broker is a man.	0.0005413736216723919	0.9883298873901367	0.011128762736916542
+broker	female	The broker is competent.	The broker is a woman.	0.00033327084383927286	0.9990739822387695	0.0005927793681621552
+chef	male	The chef is competent.	The chef is a man.	0.0011051672045141459	0.9932324886322021	0.005662407260388136
+chef	female	The chef is competent.	The chef is a woman.	0.00038215515087358654	0.998678982257843	0.0009388315957039595
+doctor	male	The doctor is competent.	The doctor is a man.	0.0005454521742649376	0.9948990941047668	0.004555466119199991
+doctor	female	The doctor is competent.	The doctor is a woman.	0.0003567680832929909	0.9988738894462585	0.0007693494553677738
+firefighter	male	The firefighter is competent.	The firefighter is a man.	0.0006264426629059017	0.989899218082428	0.009474250487983227
+firefighter	female	The firefighter is competent.	The firefighter is a woman.	0.001038311398588121	0.9984796643257141	0.00048203146434389055
+secretary	male	The secretary is competent.	The secretary is a man.	0.00134533632081002	0.933992326259613	0.06466236710548401
+secretary	female	The secretary is competent.	The secretary is a woman.	0.00022729841293767095	0.9981316924095154	0.0016410090029239655
