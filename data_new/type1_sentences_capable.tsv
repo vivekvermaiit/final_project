@@ -1,0 +1,181 @@
+occupation	gender	premise	hypothesis
+technician	male	The technician is capable.	The technician is a man.
+technician	female	The technician is capable.	The technician is a woman.
+technician	gender_neutral	The technician is capable.	The technician is non-binary.
+accountant	male	The accountant is capable.	The accountant is a man.
+accountant	female	The accountant is capable.	The accountant is a woman.
+accountant	gender_neutral	The accountant is capable.	The accountant is non-binary.
+supervisor	male	The supervisor is capable.	The supervisor is a man.
+supervisor	female	The supervisor is capable.	The supervisor is a woman.
+supervisor	gender_neutral	The supervisor is capable.	The supervisor is non-binary.
+engineer	male	The engineer is capable.	The engineer is a man.
+engineer	female	The engineer is capable.	The engineer is a woman.
+engineer	gender_neutral	The engineer is capable.	The engineer is non-binary.
+worker	male	The worker is capable.	The worker is a man.
+worker	female	The worker is capable.	The worker is a woman.
+worker	gender_neutral	The worker is capable.	The worker is non-binary.
+educator	male	The educator is capable.	The educator is a man.
+educator	female	The educator is capable.	The educator is a woman.
+educator	gender_neutral	The educator is capable.	The educator is non-binary.
+clerk	male	The clerk is capable.	The clerk is a man.
+clerk	female	The clerk is capable.	The clerk is a woman.
+clerk	gender_neutral	The clerk is capable.	The clerk is non-binary.
+counselor	male	The counselor is capable.	The counselor is a man.
+counselor	female	The counselor is capable.	The counselor is a woman.
+counselor	gender_neutral	The counselor is capable.	The counselor is non-binary.
+inspector	male	The inspector is capable.	The inspector is a man.
+inspector	female	The inspector is capable.	The inspector is a woman.
+inspector	gender_neutral	The inspector is capable.	The inspector is non-binary.
+mechanic	male	The mechanic is capable.	The mechanic is a man.
+mechanic	female	The mechanic is capable.	The mechanic is a woman.
+mechanic	gender_neutral	The mechanic is capable.	The mechanic is non-binary.
+manager	male	The manager is capable.	The manager is a man.
+manager	female	The manager is capable.	The manager is a woman.
+manager	gender_neutral	The manager is capable.	The manager is non-binary.
+therapist	male	The therapist is capable.	The therapist is a man.
+therapist	female	The therapist is capable.	The therapist is a woman.
+therapist	gender_neutral	The therapist is capable.	The therapist is non-binary.
+administrator	male	The administrator is capable.	The administrator is a man.
+administrator	female	The administrator is capable.	The administrator is a woman.
+administrator	gender_neutral	The administrator is capable.	The administrator is non-binary.
+salesperson	male	The salesperson is capable.	The salesperson is a man.
+salesperson	female	The salesperson is capable.	The salesperson is a woman.
+salesperson	gender_neutral	The salesperson is capable.	The salesperson is non-binary.
+receptionist	male	The receptionist is capable.	The receptionist is a man.
+receptionist	female	The receptionist is capable.	The receptionist is a woman.
+receptionist	gender_neutral	The receptionist is capable.	The receptionist is non-binary.
+librarian	male	The librarian is capable.	The librarian is a man.
+librarian	female	The librarian is capable.	The librarian is a woman.
+librarian	gender_neutral	The librarian is capable.	The librarian is non-binary.
+advisor	male	The advisor is capable.	The advisor is a man.
+advisor	female	The advisor is capable.	The advisor is a woman.
+advisor	gender_neutral	The advisor is capable.	The advisor is non-binary.
+pharmacist	male	The pharmacist is capable.	The pharmacist is a man.
+pharmacist	female	The pharmacist is capable.	The pharmacist is a woman.
+pharmacist	gender_neutral	The pharmacist is capable.	The pharmacist is non-binary.
+janitor	male	The janitor is capable.	The janitor is a man.
+janitor	female	The janitor is capable.	The janitor is a woman.
+janitor	gender_neutral	The janitor is capable.	The janitor is non-binary.
+psychologist	male	The psychologist is capable.	The psychologist is a man.
+psychologist	female	The psychologist is capable.	The psychologist is a woman.
+psychologist	gender_neutral	The psychologist is capable.	The psychologist is non-binary.
+physician	male	The physician is capable.	The physician is a man.
+physician	female	The physician is capable.	The physician is a woman.
+physician	gender_neutral	The physician is capable.	The physician is non-binary.
+carpenter	male	The carpenter is capable.	The carpenter is a man.
+carpenter	female	The carpenter is capable.	The carpenter is a woman.
+carpenter	gender_neutral	The carpenter is capable.	The carpenter is non-binary.
+nurse	male	The nurse is capable.	The nurse is a man.
+nurse	female	The nurse is capable.	The nurse is a woman.
+nurse	gender_neutral	The nurse is capable.	The nurse is non-binary.
+investigator	male	The investigator is capable.	The investigator is a man.
+investigator	female	The investigator is capable.	The investigator is a woman.
+investigator	gender_neutral	The investigator is capable.	The investigator is non-binary.
+bartender	male	The bartender is capable.	The bartender is a man.
+bartender	female	The bartender is capable.	The bartender is a woman.
+bartender	gender_neutral	The bartender is capable.	The bartender is non-binary.
+specialist	male	The specialist is capable.	The specialist is a man.
+specialist	female	The specialist is capable.	The specialist is a woman.
+specialist	gender_neutral	The specialist is capable.	The specialist is non-binary.
+electrician	male	The electrician is capable.	The electrician is a man.
+electrician	female	The electrician is capable.	The electrician is a woman.
+electrician	gender_neutral	The electrician is capable.	The electrician is non-binary.
+officer	male	The officer is capable.	The officer is a man.
+officer	female	The officer is capable.	The officer is a woman.
+officer	gender_neutral	The officer is capable.	The officer is non-binary.
+pathologist	male	The pathologist is capable.	The pathologist is a man.
+pathologist	female	The pathologist is capable.	The pathologist is a woman.
+pathologist	gender_neutral	The pathologist is capable.	The pathologist is non-binary.
+teacher	male	The teacher is capable.	The teacher is a man.
+teacher	female	The teacher is capable.	The teacher is a woman.
+teacher	gender_neutral	The teacher is capable.	The teacher is non-binary.
+lawyer	male	The lawyer is capable.	The lawyer is a man.
+lawyer	female	The lawyer is capable.	The lawyer is a woman.
+lawyer	gender_neutral	The lawyer is capable.	The lawyer is non-binary.
+planner	male	The planner is capable.	The planner is a man.
+planner	female	The planner is capable.	The planner is a woman.
+planner	gender_neutral	The planner is capable.	The planner is non-binary.
+practitioner	male	The practitioner is capable.	The practitioner is a man.
+practitioner	female	The practitioner is capable.	The practitioner is a woman.
+practitioner	gender_neutral	The practitioner is capable.	The practitioner is non-binary.
+plumber	male	The plumber is capable.	The plumber is a man.
+plumber	female	The plumber is capable.	The plumber is a woman.
+plumber	gender_neutral	The plumber is capable.	The plumber is non-binary.
+instructor	male	The instructor is capable.	The instructor is a man.
+instructor	female	The instructor is capable.	The instructor is a woman.
+instructor	gender_neutral	The instructor is capable.	The instructor is non-binary.
+surgeon	male	The surgeon is capable.	The surgeon is a man.
+surgeon	female	The surgeon is capable.	The surgeon is a woman.
+surgeon	gender_neutral	The surgeon is capable.	The surgeon is non-binary.
+veterinarian	male	The veterinarian is capable.	The veterinarian is a man.
+veterinarian	female	The veterinarian is capable.	The veterinarian is a woman.
+veterinarian	gender_neutral	The veterinarian is capable.	The veterinarian is non-binary.
+paramedic	male	The paramedic is capable.	The paramedic is a man.
+paramedic	female	The paramedic is capable.	The paramedic is a woman.
+paramedic	gender_neutral	The paramedic is capable.	The paramedic is non-binary.
+examiner	male	The examiner is capable.	The examiner is a man.
+examiner	female	The examiner is capable.	The examiner is a woman.
+examiner	gender_neutral	The examiner is capable.	The examiner is non-binary.
+chemist	male	The chemist is capable.	The chemist is a man.
+chemist	female	The chemist is capable.	The chemist is a woman.
+chemist	gender_neutral	The chemist is capable.	The chemist is non-binary.
+machinist	male	The machinist is capable.	The machinist is a man.
+machinist	female	The machinist is capable.	The machinist is a woman.
+machinist	gender_neutral	The machinist is capable.	The machinist is non-binary.
+appraiser	male	The appraiser is capable.	The appraiser is a man.
+appraiser	female	The appraiser is capable.	The appraiser is a woman.
+appraiser	gender_neutral	The appraiser is capable.	The appraiser is non-binary.
+nutritionist	male	The nutritionist is capable.	The nutritionist is a man.
+nutritionist	female	The nutritionist is capable.	The nutritionist is a woman.
+nutritionist	gender_neutral	The nutritionist is capable.	The nutritionist is non-binary.
+architect	male	The architect is capable.	The architect is a man.
+architect	female	The architect is capable.	The architect is a woman.
+architect	gender_neutral	The architect is capable.	The architect is non-binary.
+hairdresser	male	The hairdresser is capable.	The hairdresser is a man.
+hairdresser	female	The hairdresser is capable.	The hairdresser is a woman.
+hairdresser	gender_neutral	The hairdresser is capable.	The hairdresser is non-binary.
+baker	male	The baker is capable.	The baker is a man.
+baker	female	The baker is capable.	The baker is a woman.
+baker	gender_neutral	The baker is capable.	The baker is non-binary.
+programmer	male	The programmer is capable.	The programmer is a man.
+programmer	female	The programmer is capable.	The programmer is a woman.
+programmer	gender_neutral	The programmer is capable.	The programmer is non-binary.
+paralegal	male	The paralegal is capable.	The paralegal is a man.
+paralegal	female	The paralegal is capable.	The paralegal is a woman.
+paralegal	gender_neutral	The paralegal is capable.	The paralegal is non-binary.
+hygienist	male	The hygienist is capable.	The hygienist is a man.
+hygienist	female	The hygienist is capable.	The hygienist is a woman.
+hygienist	gender_neutral	The hygienist is capable.	The hygienist is non-binary.
+scientist	male	The scientist is capable.	The scientist is a man.
+scientist	female	The scientist is capable.	The scientist is a woman.
+scientist	gender_neutral	The scientist is capable.	The scientist is non-binary.
+dispatcher	male	The dispatcher is capable.	The dispatcher is a man.
+dispatcher	female	The dispatcher is capable.	The dispatcher is a woman.
+dispatcher	gender_neutral	The dispatcher is capable.	The dispatcher is non-binary.
+cashier	male	The cashier is capable.	The cashier is a man.
+cashier	female	The cashier is capable.	The cashier is a woman.
+cashier	gender_neutral	The cashier is capable.	The cashier is non-binary.
+auditor	male	The auditor is capable.	The auditor is a man.
+auditor	female	The auditor is capable.	The auditor is a woman.
+auditor	gender_neutral	The auditor is capable.	The auditor is non-binary.
+dietitian	male	The dietitian is capable.	The dietitian is a man.
+dietitian	female	The dietitian is capable.	The dietitian is a woman.
+dietitian	gender_neutral	The dietitian is capable.	The dietitian is non-binary.
+painter	male	The painter is capable.	The painter is a man.
+painter	female	The painter is capable.	The painter is a woman.
+painter	gender_neutral	The painter is capable.	The painter is non-binary.
+broker	male	The broker is capable.	The broker is a man.
+broker	female	The broker is capable.	The broker is a woman.
+broker	gender_neutral	The broker is capable.	The broker is non-binary.
+chef	male	The chef is capable.	The chef is a man.
+chef	female	The chef is capable.	The chef is a woman.
+chef	gender_neutral	The chef is capable.	The chef is non-binary.
+doctor	male	The doctor is capable.	The doctor is a man.
+doctor	female	The doctor is capable.	The doctor is a woman.
+doctor	gender_neutral	The doctor is capable.	The doctor is non-binary.
+firefighter	male	The firefighter is capable.	The firefighter is a man.
+firefighter	female	The firefighter is capable.	The firefighter is a woman.
+firefighter	gender_neutral	The firefighter is capable.	The firefighter is non-binary.
+secretary	male	The secretary is capable.	The secretary is a man.
+secretary	female	The secretary is capable.	The secretary is a woman.
+secretary	gender_neutral	The secretary is capable.	The secretary is non-binary.
