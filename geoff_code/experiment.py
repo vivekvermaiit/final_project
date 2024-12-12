@@ -118,7 +118,7 @@ def calculate_proportions_auto(df):
         print(f"  False Proportion: {false_count / total_count:.2%}")
 
     
-occupation_df = load_tsv_to_dataframe("./data/occupations-stats.tsv")
+occupation_df = load_tsv_to_dataframe("./data_new/occupations-stats.tsv")
 type1_premises_df = load_tsv_to_dataframe("./data/type1_premises.tsv")
 type2_hypothesis_df = load_tsv_to_dataframe("./data/type2_hypothesis.tsv")
 print(type1_premises_df.head())
